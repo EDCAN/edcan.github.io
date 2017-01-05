@@ -73,9 +73,16 @@ body {
 section > .page_card {
     box-sizing: border-box;
     width: 100%;
-    padding: 50px;
+    padding:50px;
     background-color: #fff;
     box-shadow: 0 19px 35px rgba(0, 0, 0, 0.3);
+}
+
+section > .unit_page{
+  padding-top: 50px;
+  padding-bottom:50px;
+  padding-left:5px;
+  padding-right:5px;
 }
 
 section > .page_card > .page_card_title {
@@ -87,6 +94,16 @@ section > .page_card > .page_card_explain {
     color: #263238;
 }
 
+section > .unit_page > .page_card_title {
+    height: 15px;
+    color: #263238;
+    margin-left:45px;
+}
+
+section > .unit_page > .page_card_explain {
+    color: #263238;
+    margin-left:45px;
+}
 
 /* 위는 선배 코드 */
 
@@ -326,6 +343,7 @@ section > .page_card > .page_card_explain {
     padding-left: 10px;
 }
 
+
 .unit_link {
     -webkit-flex-basis: 120px;
     -ms-flex-preferred-size: 120px;
@@ -388,7 +406,7 @@ section > .page_card > .page_card_explain {
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     z-index: 5;
-    left: calc(100% - 90px);
+    left: calc(100% - 55px);
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -476,13 +494,40 @@ section > .page_card > .page_card_explain {
     .link_box {
         margin-bottom: 0;
     }
+
+    .rightBtn{
+      left: calc(100% - 90px);
+    }
+
     section > .page_card > .page_card_title {
         height: 30px;
     }
     #p1 {
         margin-bottom: 350px;
     }
+
+
     .unit > .unit_box > .unit_card {
       width:240px;
     }
+
+    section > .unit_page {
+        padding:50px;
+    }
+
+    .unti_title{
+      margin-left:0px;
+    }
+
+
+
+    section > .unit_page > .page_card_title {
+        height: 30px;
+        margin-left:0px;
+    }
+
+    section > .unit_page > .page_card_explain {
+        margin-left:0px;
+    }
+
 }
