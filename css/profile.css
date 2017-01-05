@@ -1,0 +1,238 @@
+body {
+  background-color: #fcfcfc;
+}
+#p1 {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#p1 #backgroundImage {
+  position: absolute;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/profile/background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#p1 #backgroundCover {
+  position: absolute;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+}
+#p1 .lumihana {
+  background-color: #ffb8db;
+}
+#p1 .ggz {
+  background-color: #ffa25c;
+}
+#p1 .pixel {
+  background-color: #cdbdff;
+}
+#p1 .debur {
+  background-color: #48af9f;
+}
+#p1 #edcanLogo {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 12%;
+  min-width: 10%;
+  max-width: 12%;
+}
+#p1 #memberProfile {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+@media (max-width: 569px) {
+  #p1 #memberProfile #profileImage {
+    width: 62%;
+  }
+}
+#p1 #memberProfile #profileDivider {
+  width: 60px;
+  height: 4px;
+  margin: 0 auto 30px auto;
+  background-color: #fff;
+}
+#p1 #memberProfile #memberName {
+  color: #fff;
+  font-weight: bold;
+}
+@media (min-width: 570px) {
+  #p1 #memberProfile #memberName {
+    font-size: 3em;
+  }
+}
+@media (max-width: 569px) {
+  #p1 #memberProfile #memberName {
+    font-size: 8vw;
+  }
+}
+#p1 #buttonContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+@media (min-width: 570px) {
+  #p1 #buttonContainer {
+    height: 70px;
+  }
+}
+@media (max-width: 569px) {
+  #p1 #buttonContainer {
+    height: 120px;
+  }
+}
+#p1 #buttonContainer .button {
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  transition-property: color,
+            background;
+  transition-duration: 0.1s;
+}
+@media (min-width: 570px) {
+  #p1 #buttonContainer .button {
+    display: inline-block;
+    width: 250px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 569px) {
+  #p1 #buttonContainer .button {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 10px auto;
+  }
+}
+@media (min-width: 570px) {
+  #p1 #buttonContainer .button:last-child {
+    margin: 0;
+  }
+}
+#p1 #buttonContainer .button:hover {
+  background-color: #fff;
+}
+#p1 #buttonContainer .lumihana_hover:hover {
+  color: #b8005b;
+}
+#p1 #buttonContainer .ggz_hover:hover {
+  color: #5c2800;
+}
+#p1 #buttonContainer .pixel_hover:hover {
+  color: #2e00bd;
+}
+#p1 #buttonContainer .debur_hover:hover {
+  color: #000000;
+}
+#p2 {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 30px 0;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+#p2 #projectListTitle {
+  color: #00b8d4;
+  font-size: 2.5em;
+}
+#p2 #projectListExplain {
+  color: #263238;
+}
+#p2 #projectContainer {
+  margin-top: 50px;
+}
+#p2 #projectContainer .project_card {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  height: 400px;
+  margin: 0 15px 15px 0;
+  border-radius: 3px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition-property: box-shadow, transform;
+  transition-duration: 0.5s;
+}
+@media (min-width: 1600px) {
+  #p2 #projectContainer .project_card {
+    width: calc(100% / 5 - 15px);
+  }
+}
+@media (min-width: 1300px) and (max-width: 1599px) {
+  #p2 #projectContainer .project_card {
+    width: calc(100% / 4 - 15px);
+  }
+}
+@media (min-width: 900px) and (max-width: 1299px) {
+  #p2 #projectContainer .project_card {
+    width: calc(100% / 3 - 15px);
+  }
+}
+@media (min-width: 700px) and (max-width: 899px) {
+  #p2 #projectContainer .project_card {
+    width: calc(100% / 2 - 15px);
+  }
+}
+@media (max-width: 699px) {
+  #p2 #projectContainer .project_card {
+    width: calc(100% - 15px);
+  }
+}
+#p2 #projectContainer .project_card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+}
+#p2 #projectContainer .project_card .project_card_name {
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  width: 100%;
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+#p2 #projectContainer .project_card .project_card_info {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 120px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+#p2 #projectContainer .project_card .project_card_info .project_card_title {
+  font-size: 2em;
+  font-weight: bold;
+}
+#p2 #projectContainer .project_card .project_card_info .project_card_explain {
+  font-size: 0.85em;
+  line-height: 1.5em;
+  word-break: break-all;
+}
+#p2 #projectContainer .project_card .project_card_image {
+  filter: brightness(80%);
+  position: absolute;
+  z-index: 0;
+  width: auto;
+  height: 100%;
+}

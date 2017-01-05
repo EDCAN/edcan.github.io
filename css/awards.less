@@ -1,0 +1,111 @@
+#awards {
+  box-sizing: border-box;
+  background-image: url(../img/unit/member_background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 6em 30px 4em 30px;
+  #awards-title {
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    font-weight: normal;
+    text-align: center;
+  }
+  #awards-divider {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 50px;
+    height: 4px;
+    margin: 10px auto 20px auto;
+    border-radius: 2px;
+    color: white;
+  }
+  #awards-subtitle {
+    margin: 0;
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+  }
+  #awards-calender {
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.30);
+    #calender-top {
+      box-sizing: border-box;
+      background-color: #37474f;
+      width: 100%;
+      height: 70px;
+      padding: 0 20px 0 20px;
+      border-radius: 4px 4px 0 0;
+      color: white;
+      #calender-year {
+        float: left;
+        font-family: "Roboto";
+        font-size: 50px;
+        line-height: 70px;
+      }
+      #calender-control {
+        float: right;
+        margin-top: 15px;
+        #left-angle {
+          margin-right: 5px;
+          padding-right: 5px;
+        }
+        .control-button {
+          box-sizing: border-box;
+          width: 40px;
+          height: 40px;
+          padding-left: 3px;
+          border: 1px solid white;
+          border-radius: 20px;
+          font-size: 30px;
+          text-align: center;
+          line-height: 1.3em;
+          cursor: pointer;
+          transition-property: background, color;
+          transition-duration: 0.2s;
+          &:hover {
+            background-color: white;
+            color: #37474f;
+          }
+        }
+      }
+    }
+    #calender-list-wrapper {
+      overflow-y: scroll;
+      background-color: white;
+      height: 300px;
+      padding: 10px 20px 10px 20px;
+      border-radius: 0 0 4px 4px;
+      .calender-list {
+        padding: 20px 0 20px 0;
+        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        &:last-child {
+          border: 0;
+        }
+        .calender-service {
+          margin-right: 5px;
+          color: #37474f;
+          font-weight: bold;
+        }
+        .calender-team {
+          color: #777;
+        }
+        .calender-contest {
+          margin-top: 3px;
+          color: #777;
+          font-size: 14px;
+          .calender-award {
+            color: #00b8d4;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+#memberList {
+  box-sizing: border-box;
+  padding: 6em 0 4em 0;
+  background-image: url(../img/unit/member_background.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+#memberList #memberTitle {
+  color: #fff;
+  font-size: 64px !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+#memberList #divider {
+  display: block;
+  width: 50px;
+  height: 5px;
+  margin: 1em auto 1.5em auto;
+  background-color: #fff;
+}
+#memberList #memberIntro {
+  padding: 0 30px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+#memberList #memberGallery {
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: 0 12px 23px rgba(0, 0, 0, 0.3);
+}
+#memberList #memberGallery #yearBar {
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  padding: 0 50px;
+  background-color: #37474f;
+}
+#memberList #memberGallery #yearBar #year {
+  float: left;
+  color: #fff;
+  font-size: 4em;
+  line-height: 80px;
+}
+#memberList #memberGallery #yearBar #arrows {
+  float: right;
+  margin-top: 20px;
+}
+#memberList #memberGallery #yearBar #arrows .arrow_wrapper {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+#memberList #memberGallery #yearBar #arrows .arrow_wrapper .arrow {
+  display: inline-block;
+  margin-top: 5px;
+}
+#memberList #memberGallery #gallery {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  padding: 50px;
+  background-color: #fff;
+  white-space: nowrap;
+}
+#memberList #memberGallery #gallery #scrollLeft {
+  position: absolute;
+  z-index: 999;
+  top: calc(50% - 50px);
+  left: 0;
+  width: 40px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  cursor: pointer;
+}
+#memberList #memberGallery #gallery #scrollLeft img {
+  margin-top: 36px;
+}
+#memberList #memberGallery #gallery #scrollRight {
+  position: absolute;
+  z-index: 999;
+  top: calc(50% - 50px);
+  right: 0;
+  width: 40px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  cursor: pointer;
+}
+#memberList #memberGallery #gallery #scrollRight img {
+  margin-top: 36px;
+}
+#memberList #memberGallery #gallery .member_image_wrapper {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin-right: 30px;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+#memberList #memberGallery #gallery .member_image_wrapper:last-child {
+  margin: 0;
+}
+#memberList #memberGallery #gallery .member_image_wrapper .member_image {
+  width: 100%;
+  height: 100%;
+}
+#memberList #memberGallery #gallery .member_image_wrapper .member_name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+}

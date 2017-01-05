@@ -1,0 +1,58 @@
+footer {
+  box-sizing: border-box;
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: #e7e7e6;
+  color: #8f8f8f;
+  font-size: 0.75em;
+  line-height: 1em;
+}
+@media (min-width: 640px) {
+  footer {
+    padding: 20px 50px;
+  }
+}
+@media (max-width: 639px) {
+  footer {
+    padding: 20px 30px;
+  }
+}
+footer #footerWrapper {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+@media (min-width: 640px) {
+  footer #footerWrapper img {
+    float: left;
+    max-width: 100%;
+    margin-right: 10px;
+    height: 80%;
+  }
+}
+@media (max-width: 639px) {
+  footer #footerWrapper img {
+    width: 100%;
+  }
+}
+footer #footerWrapper a {
+  color: #1aadc7;
+}
+footer #edcanLogo {
+  position: absolute;
+  top: -40%;
+  right: 40px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #36464e;
+  box-shadow: 0 19px 35px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+footer #edcanLogo img {
+  width: 60%;
+  height: auto;
+  margin-top: 20px;
+}

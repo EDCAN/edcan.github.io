@@ -1,0 +1,219 @@
+body {
+    background-color: #fcfcfc;
+}
+
+#p1 {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    #backgroundImage {
+        position: absolute;
+        z-index: -999;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/profile/background.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    #backgroundCover {
+        position: absolute;
+        z-index: -999;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+    }
+    .lumihana {
+        background-color: #ffb8db;
+    }
+    .ggz {
+        background-color: #ffa25c;
+    }
+    .pixel {
+        background-color: #cdbdff;
+    }
+    .debur {
+        background-color: #48af9f;
+    }
+    #edcanLogo {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        width: 12%;
+        min-width: 10%;
+        max-width: 12%;
+    }
+    #memberProfile {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        #profileImage {
+            @media (max-width: 569px) {
+                width: 62%;
+            }
+        }
+        #profileDivider {
+            width: 60px;
+            height: 4px;
+            margin: 0 auto 30px auto;
+            background-color: #fff;
+        }
+        #memberName {
+            color: #fff;
+            @media (min-width: 570px) {
+                font-size: 3em;
+            }
+            @media (max-width: 569px) {
+                font-size: 8vw;
+            }
+            font-weight: bold;
+        }
+    }
+    #buttonContainer {
+        position: absolute;
+        width: 100%;
+        @media (min-width: 570px) {
+            height: 70px;
+        }
+        @media (max-width: 569px) {
+            height: 120px;
+        }
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        .button {
+            box-sizing: border-box;
+            @media (min-width: 570px) {
+                display: inline-block;
+                width: 250px;
+                margin-right: 10px;
+            }
+            @media (max-width: 569px) {
+                display: block;
+                width: 100%;
+                max-width: 250px;
+                margin: 0 auto 10px auto;
+            }
+            height: 40px;
+            border: 1px solid #fff;
+            border-radius: 30px;
+            color: #fff;
+            text-decoration: none;
+            line-height: 40px;
+            transition-property: color,
+            background;
+            transition-duration: 0.1s;
+            &:last-child {
+                @media (min-width: 570px) {
+                    margin: 0;
+                }
+            }
+            &:hover {
+                background-color: #fff;
+            }
+        }
+        .lumihana_hover:hover {
+            color: darken(#ffb8db, 50%);
+        }
+        .ggz_hover:hover {
+            color: darken(#ffa25c, 50%);
+        }
+        .pixel_hover:hover {
+            color: darken(#cdbdff, 50%);
+        }
+        .debur_hover:hover {
+            color: darken(#48af9f, 50%);
+        }
+    }
+}
+
+#p2 {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 30px 0;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    #projectListTitle {
+        color: #00b8d4;
+        font-size: 2.5em;
+    }
+    #projectListExplain {
+        color: #263238;
+    }
+    #projectContainer {
+        margin-top: 50px;
+        .project_card {
+            overflow: hidden;
+            float: left;
+            position: relative;
+            @media (min-width: 1600px) {
+                width: calc(~"100% / 5 - 15px");
+            }
+            @media (min-width: 1300px) and (max-width: 1599px) {
+                width: calc(~"100% / 4 - 15px");
+            }
+            @media (min-width: 900px) and (max-width: 1299px) {
+                width: calc(~"100% / 3 - 15px");
+            }
+            @media (min-width: 700px) and (max-width: 899px) {
+                width: calc(~"100% / 2 - 15px");
+            }
+            @media (max-width: 699px) {
+                width: calc(~"100% - 15px");
+            }
+            height: 400px;
+            margin: 0 15px 15px 0;
+            border-radius: 3px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+            transition-property: box-shadow,
+            transform;
+            transition-duration: 0.5s;
+            &:hover {
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+                transform: translateY(-5px);
+            }
+            .project_card_name {
+                position: absolute;
+                z-index: 1;
+                top: 30%;
+                width: 100%;
+                color: #fff;
+                font-size: 3em;
+                font-weight: bold;
+                text-align: center;
+                text-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            }
+            .project_card_info {
+                box-sizing: border-box;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+                width: 100%;
+                height: 120px;
+                padding: 20px;
+                background-color: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                .project_card_title {
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+                .project_card_explain {
+                    font-size: 0.85em;
+                    line-height: 1.5em;
+                    word-break: break-all;
+                }
+            }
+            .project_card_image {
+                filter: brightness(80%);
+                position: absolute;
+                z-index: 0;
+                width: auto;
+                height: 100%;
+            }
+        }
+    }
+}
