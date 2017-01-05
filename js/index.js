@@ -37,23 +37,47 @@ $(function(){
   })
 
   $(".rightBtn").click(function(){
-    if(margin - 400 < -1200){
 
+    if(window.innerWidth < 401){
+      if(margin - 360 < -1500){
+
+      }
+      else{
+        margin = margin - 360;
+        $(".lh").animate({"margin-left":margin},1000)
+      }
     }
     else{
-      margin = margin - 400;
-      $(".lh").animate({"margin-left":margin},1000)
+      if(margin - 400 < -1200){
+
+      }
+      else{
+        margin = margin - 400;
+        $(".lh").animate({"margin-left":margin},1000)
+      }
     }
   })
 
   $(".leftBtn").click(function(){
-    if(margin + 400 >0)
-    {
+    if(window.innerWidth < 401){
+      if(margin + 360 >0)
+      {
 
+      }
+      else{
+        margin = margin + 360;
+        $(".lh").animate({"margin-left":margin},1000)
+      }
     }
     else{
-      margin = margin + 400;
-      $(".lh").animate({"margin-left":margin},1000)
+      if(margin + 400 >0)
+      {
+
+      }
+      else{
+        margin = margin + 400;
+        $(".lh").animate({"margin-left":margin},1000)
+      }
     }
   })
 
