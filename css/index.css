@@ -97,12 +97,12 @@ section > .page_card > .page_card_explain {
 section > .unit_page > .page_card_title {
     height: 15px;
     color: #263238;
-    margin-left:35px;
+    margin-left:25px;
 }
 
 section > .unit_page > .page_card_explain {
     color: #263238;
-    margin-left:35px;
+    margin-left:25px;
 }
 
 /* 위는 선배 코드 */
