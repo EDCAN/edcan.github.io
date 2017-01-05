@@ -39,11 +39,11 @@ $(function(){
   $(".rightBtn").click(function(){
 
     if(window.innerWidth < 401){
-      if(margin - 380 < -1500){
+      if(margin - 400 < -1600){
 
       }
       else{
-        margin = margin - 380;
+        margin = margin - 400;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
@@ -65,7 +65,7 @@ $(function(){
 
       }
       else{
-        margin = margin + 380;
+        margin = margin + 400;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
