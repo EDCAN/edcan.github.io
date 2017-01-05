@@ -42,7 +42,7 @@ $(function(){
     }
     else{
       margin = margin - 400;
-      $(".an").animate({"margin-left":margin},1000)
+      $(".lh").animate({"margin-left":margin},1000)
     }
   })
 
@@ -53,7 +53,7 @@ $(function(){
     }
     else{
       margin = margin + 400;
-      $(".an").animate({"margin-left":margin},1000)
+      $(".lh").animate({"margin-left":margin},1000)
     }
   })
 
