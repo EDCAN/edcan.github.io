@@ -39,20 +39,20 @@ $(function(){
   $(".rightBtn").click(function(){
 
     if(window.innerWidth < 401){
-      if(margin - 400 < -1600){
+      if(margin - 365 < -1500){
 
       }
       else{
-        margin = margin - 400;
+        margin = margin - 365;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
     else{
-      if(margin - 400 < -1200){
+      if(margin - 420 < -1300){
 
       }
       else{
-        margin = margin - 400;
+        margin = margin - 420;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
@@ -60,22 +60,22 @@ $(function(){
 
   $(".leftBtn").click(function(){
     if(window.innerWidth < 401){
-      if(margin + 380>0)
+      if(margin + 365 >0)
       {
 
       }
       else{
-        margin = margin + 400;
+        margin = margin + 365;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
     else{
-      if(margin + 400 >0)
+      if(margin + 420 >0)
       {
 
       }
       else{
-        margin = margin + 400;
+        margin = margin + 420;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
