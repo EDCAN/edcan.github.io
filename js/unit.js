@@ -1,11 +1,11 @@
 $(function(){
   var margin = 0;
   $("#backButton").click(function(){
-    location.href="index.html"
+    location.href="index"
   })
 
   $(".member_image_wrapper").click(function(){
-    location.href="profile.html"
+    location.href="profile"
   })
 
   $("#scrollLeft").click(function(){

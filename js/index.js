@@ -21,7 +21,7 @@ $(function(){
   })
 
   $(".unit_button").click(function(){
-    location.href="unit.html"
+    location.href="unit"
   })
 
   $("#left-angle").click(function(){
