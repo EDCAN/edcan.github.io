@@ -39,11 +39,11 @@ $(function(){
   $(".rightBtn").click(function(){
 
     if(window.innerWidth < 401){
-      if(margin - 365 < -1500){
+      if(margin - 370 < -1480){
 
       }
       else{
-        margin = margin - 365;
+        margin = margin - 370;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
@@ -60,12 +60,12 @@ $(function(){
 
   $(".leftBtn").click(function(){
     if(window.innerWidth < 401){
-      if(margin + 365 >0)
+      if(margin + 370 >0)
       {
 
       }
       else{
-        margin = margin + 365;
+        margin = margin + 370;
         $(".lh").animate({"margin-left":margin},1000)
       }
     }
