@@ -20,9 +20,78 @@ $(function(){
     location.href="https://github.com/EDCAN"
   })
 
-  $(".unit_button").click(function(){
-    location.href="unit"
+  $(".gg").click(function(){
+    $.ajax({
+      method:"POST",
+      data:{"unit":"gz"},
+      url:"http://iwin248:3000/unit",
+      success:function(data){
+
+      },
+      error:function(){
+        alert("Server Error 500")
+      }
+    })
   })
+
+  $(".la").click(function(){
+    $.ajax({
+      method:"POST",
+      data:{"unit":"lu"},
+      url:"http://iwin248:3000/unit",
+      success:function(data){
+
+      },
+      error:function(){
+        alert("Server Error 500")
+      }
+    })
+  })
+
+  $(".ao").click(function(){
+    $.ajax({
+      method:"POST",
+      data:{"unit":"ad"},
+      url:"http://iwin248:3000/unit",
+      success:function(data){
+
+      },
+      error:function(){
+        alert("Server Error 500")
+      }
+    })
+  })
+
+  $(".pl").click(function(){
+    $.ajax({
+      method:"POST",
+      data:{"unit":"px"},
+      url:"http://iwin248:3000/unit",
+      success:function(data){
+
+      },
+      error:function(){
+        alert("Server Error 500")
+      }
+    })
+  })
+
+  $(".db").click(function(){
+    $.ajax({
+      method:"POST",
+      data:{"unit":"dr"},
+      url:"http://iwin248:3000/unit",
+      success:function(data){
+
+      },
+      error:function(){
+        alert("Server Error 500")
+      }
+    })
+  })
+
+
+
 
   $("#left-angle").click(function(){
     i = i-1;
