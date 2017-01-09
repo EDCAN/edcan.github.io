@@ -1,7 +1,8 @@
 $(function(){
   var unit = new Array()
   unit =  ['an','gz','db','px','lh']
-  var margin = 0;
+  var unitMargin = 0;
+  var projectMargin = 0;
   var i = 2015;
 
   $(".youtube").click(function(){
@@ -36,47 +37,92 @@ $(function(){
     $(".calender-list").html("")
   })
 
-  $(".rightBtn").click(function(){
+  $(".URB").click(function(){
 
     if(window.innerWidth < 401){
-      if(margin - 370 < -1480){
+      if(unitMargin - 370 < -1480){
 
       }
       else{
-        margin = margin - 370;
-        $(".lh").animate({"margin-left":margin},1000)
+        unitMargin = unitMargin - 370;
+        $(".lh").animate({"margin-left":unitMargin},1000)
       }
     }
     else{
-      if(margin - 420 < -1300){
+      if(unitMargin - 420 < -1300){
 
       }
       else{
-        margin = margin - 420;
-        $(".lh").animate({"margin-left":margin},1000)
+        unitMargin = unitMargin - 420;
+        $(".lh").animate({"margin-left":unitMargin},1000)
       }
     }
   })
 
-  $(".leftBtn").click(function(){
+  $(".ULB").click(function(){
     if(window.innerWidth < 401){
-      if(margin + 370 >0)
+      if(unitMargin + 370 >0)
       {
 
       }
       else{
-        margin = margin + 370;
-        $(".lh").animate({"margin-left":margin},1000)
+        unitMargin = unitMargin + 370;
+        $(".lh").animate({"margin-left":unitMargin},1000)
       }
     }
     else{
-      if(margin + 420 >0)
+      if(unitMargin + 420 >0)
       {
 
       }
       else{
-        margin = margin + 420;
-        $(".lh").animate({"margin-left":margin},1000)
+        unitMargin = unitMargin + 420;
+        $(".lh").animate({"margin-left":unitMargin},1000)
+      }
+    }
+  })
+
+  $(".PRB").click(function(){
+
+    if(window.innerWidth < 401){
+      if(projectMargin - 400 < -1480){
+
+      }
+      else{
+        projectMargin = projectMargin - 400;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
+    }
+    else{
+      if(projectMargin - 420 < -1300){
+
+      }
+      else{
+        projectMargin = projectMargin - 420;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
+    }
+  })
+
+  $(".PLB").click(function(){
+    if(window.innerWidth < 401){
+      if(projectMargin + 430 >0)
+      {
+
+      }
+      else{
+        projectMargin =projectMargin + 430;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
+    }
+    else{
+      if(projectMargin + 420 >0)
+      {
+
+      }
+      else{
+        projectMargin = projectMargin + 420;
+        $(".ts").animate({"margin-left":projectMargin},1000)
       }
     }
   })
