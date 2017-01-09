@@ -66,8 +66,14 @@ body {
 
 #p3 {
     width: 100%;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+#p4 {
+    width: 100%;
     margin-bottom: 60px;
     line-height: 1.5em;
+    z-index: 1;
 }
 
 section > .page_card {
@@ -83,6 +89,7 @@ section > .unit_page{
   padding-bottom:50px;
   padding-left:5px;
   padding-right:5px;
+  z-index: 0;
 }
 
 section > .page_card > .page_card_title {
@@ -237,6 +244,7 @@ section > .unit_page > .page_card_explain {
     /*flex:2;*/
     margin-right:10px;
     margin-left:10px;
+    margin-bottom: 50px;
   }
 
 .unit_box {
@@ -264,9 +272,58 @@ section > .unit_page > .page_card_explain {
     height: 190px;
     width: 150px;
 }
+.unit > .unit_box > .project_card{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /*padding: 40px;*/
+  /*padding-right: 100px;
+  padding-left: 100px;*/
+  /*flex:1;*/
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 450px;
+  height: auto;
+  z-index: 0;
+  flex-direction: column;
+}
+.project_bottom_explain{
+  position: absolute;
+  bottom:0;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+}
 .unit > .unit_box > .unit_card img {
     width: 150px;
+    height: auto;
+    z-index: 100;
+}
+.unit > .unit_box > .project_card img {
+    width:450px;
     height: auto;
 }
 
@@ -333,6 +390,10 @@ section > .unit_page > .page_card_explain {
     padding-top: 10px;
     padding-bottom: 10px;
     /*height:80px;*/
+}
+.bottom_null{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .unit_title {
@@ -440,6 +501,7 @@ section > .unit_page > .page_card_explain {
 
 .link_button {
     cursor: pointer;
+    z-index: 1;
 }
 
 .unit_subName {
@@ -466,12 +528,34 @@ section > .unit_page > .page_card_explain {
     color: rgb(0,0,0);
     background-color:rgb(255, 255, 255);
 }
+.more_button:hover{
+  color: white;
+  background-color:rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+}
 
 .unit_button:hover{
   color:rgba(0,0,0,0.7);
   background-color:white;
 }
-
+.medal > img{
+	width:50px;
+  height: auto;
+  z-index: 100;
+  position: absolute;
+  left: 85%;
+  top: 20%;
+}
+.more_button_box{
+  float: right;
+}
+.more_button_box > .more_button{
+  border: 1px solid rgb(0, 172, 202);
+  color: rgb(0, 172, 202);
+  padding: 5px 25px 5px 25px;
+  border-radius: 50px;
+  font-size: 10pt;
+}
 @media(min-width:970px) {
     .link {
         display: -webkit-box;
