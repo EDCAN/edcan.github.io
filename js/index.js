@@ -3,7 +3,11 @@ $(function(){
   unit =  ['an','gz','db','px','lh']
   var unitMargin = 0;
   var projectMargin = 0;
+
   var i = 2015;
+
+  var unitCount = 0;
+  var projectCount = 0;
 
   $(".youtube").click(function(){
     location.href ="https://www.youtube.com/channel/UCt-s5ERAPuDsxvDhe5U5Ujw"
@@ -38,92 +42,47 @@ $(function(){
   })
 
   $(".URB").click(function(){
-
-    if(window.innerWidth < 401){
-      if(unitMargin - 370 < -1480){
+      if(unitCount > 4){
 
       }
       else{
-        unitMargin = unitMargin - 370;
+        unitMargin += window.innerWidth/4*-1;
+        unitCount++;
         $(".lh").animate({"margin-left":unitMargin},1000)
       }
-    }
-    else{
-      if(unitMargin - 420 < -1300){
 
-      }
-      else{
-        unitMargin = unitMargin - 420;
-        $(".lh").animate({"margin-left":unitMargin},1000)
-      }
-    }
   })
 
   $(".ULB").click(function(){
-    if(window.innerWidth < 401){
-      if(unitMargin + 370 >0)
-      {
+    if(unitCount == 0){
 
-      }
-      else{
-        unitMargin = unitMargin + 370;
-        $(".lh").animate({"margin-left":unitMargin},1000)
-      }
     }
     else{
-      if(unitMargin + 420 >0)
-      {
-
-      }
-      else{
-        unitMargin = unitMargin + 420;
-        $(".lh").animate({"margin-left":unitMargin},1000)
-      }
+      unitMargin += window.innerWidth/4;
+      unitCount--;
+      $(".lh").animate({"margin-left":unitMargin},1000)
     }
   })
 
   $(".PRB").click(function(){
+    if(projectCount > 4){
 
-    if(window.innerWidth < 401){
-      if(projectMargin - 400 < -1480){
-
-      }
-      else{
-        projectMargin = projectMargin - 400;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
     }
     else{
-      if(projectMargin - 420 < -1300){
-
-      }
-      else{
-        projectMargin = projectMargin - 420;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
+      projectMargin += window.innerWidth/4*-1;
+      projectCount++;
+      $(".ts").animate({"margin-left":projectMargin},1000)
     }
   })
 
   $(".PLB").click(function(){
-    if(window.innerWidth < 401){
-      if(projectMargin + 430 >0)
-      {
+    if(projectCount == 0){
 
-      }
-      else{
-        projectMargin =projectMargin + 430;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
     }
     else{
-      if(projectMargin + 420 >0)
-      {
-
-      }
-      else{
-        projectMargin = projectMargin + 420;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
+      projectMargin += window.innerWidth/4;
+      projectCount--;
+      $(".ts").animate({"margin-left":projectMargin},1000)
     }
   })
 
