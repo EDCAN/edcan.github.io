@@ -42,47 +42,97 @@ $(function(){
   })
 
   $(".URB").click(function(){
-      if(unitCount > 4){
+      if(window.innerWidth < 600){
+        if(unitCount > 3){
 
+        }
+        else{
+          unitMargin += window.innerWidth/1.1*-1;
+          unitCount++;
+          $(".lh").animate({"margin-left":unitMargin},1000)
+        }
       }
       else{
-        unitMargin += window.innerWidth/4*-1;
-        unitCount++;
-        $(".lh").animate({"margin-left":unitMargin},1000)
+        if(unitCount > 4){
+
+        }
+        else{
+          unitMargin += window.innerWidth/4*-1;
+          unitCount++;
+          $(".lh").animate({"margin-left":unitMargin},1000)
+        }
       }
 
   })
 
   $(".ULB").click(function(){
-    if(unitCount == 0){
+    if(window.innerWidth < 600){
 
+      if(unitCount == 0){
+
+      }
+      else{
+        unitMargin += window.innerWidth/1.1;
+        unitCount--;
+        $(".lh").animate({"margin-left":unitMargin},1000)
+      }
     }
     else{
-      unitMargin += window.innerWidth/4;
-      unitCount--;
-      $(".lh").animate({"margin-left":unitMargin},1000)
+      if(unitCount == 0){
+
+      }
+      else{
+        unitMargin += window.innerWidth/4;
+        unitCount--;
+        $(".lh").animate({"margin-left":unitMargin},1000)
+      }
     }
   })
 
   $(".PRB").click(function(){
-    if(projectCount > 4){
+    if(window.innerWidth < 600){
+      if(projectCount > 3){
 
+      }
+      else{
+        projectMargin += window.innerWidth/1*-1;
+        projectCount++;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
     }
     else{
-      projectMargin += window.innerWidth/4*-1;
-      projectCount++;
-      $(".ts").animate({"margin-left":projectMargin},1000)
+      if(projectCount > 4){
+
+      }
+      else{
+        projectMargin += window.innerWidth/4*-1;
+        projectCount++;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
     }
   })
 
   $(".PLB").click(function(){
-    if(projectCount == 0){
+    if(window.innerWidth < 600){
 
+      if(projectCount == 0){
+
+      }
+      else{
+        projectMargin += window.innerWidth/1;
+        projectCount--;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
     }
     else{
-      projectMargin += window.innerWidth/4;
-      projectCount--;
-      $(".ts").animate({"margin-left":projectMargin},1000)
+      if(projectCount == 0){
+
+      }
+      else{
+        projectMargin += window.innerWidth/4;
+        projectCount--;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
     }
   })
 
