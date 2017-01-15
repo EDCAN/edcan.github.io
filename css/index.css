@@ -83,7 +83,7 @@ body{
 #p3 .link {
     width: 100%;
     margin-top: 30px;
-    /*display: flex;;*/
+    display:block;
 }
 #p3 .link .link_box {
     margin-left: 1rem;

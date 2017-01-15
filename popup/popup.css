@@ -1,0 +1,91 @@
+html, body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.pop-box{
+  display: flex;
+  flex-direction: row;
+  height: 27.5rem;
+}
+
+.pop-box .pop-img{
+  display: flex;
+  flex-basis: 25rem;
+  flex-shrink: 2;
+  height: 25rem;
+  background: url('../img/temp/temp.png')no-repeat center top;
+  background-size: cover;
+}
+.pop-box .pop-index .pop-x-btn{
+  display: flex;
+  justify-content: flex-end;
+}
+.pop-box .pop-index .pop-x-btn img{
+  width:2rem;
+  height: 2rem;
+  opacity: 0.5;
+}
+.pop-box .pop-index{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.pop-box .pop-index .pop-title{
+  font-size: 35pt;
+  /*flex:1;*/
+  color:red;
+  /*justify-content:flex-start;*/
+  align-items: center;
+}
+
+.pop-box .pop-index .pop-subTitle{
+  /*flex:1;*/
+  display: flex;
+  /*width:100%;*/
+  flex-direction: row;
+}
+.pop-box .pop-index .pop-subTitle .pop-en-title{
+  display: flex;
+  flex:1;
+  color:gray;
+  font-size: 20pt;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pop-box .pop-index .pop-subTitle .pop-member{
+  display: flex;
+  flex:1;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 12pt;
+  color:gray;
+}
+.pop-box .pop-index .pop-text{
+  margin-top: 1rem;
+  /*padding-top: 1rem;*/
+  color:lightgray;
+  font-size: 10pt;
+  overflow-y: scroll;;
+  line-height: 1.2rem;
+}
+
+.pop-box .pop-index .pop-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+  /*margin-top: 1rem;*/
+}
+#pop_git{
+  margin-left: 0.25rem;
+  width:1.5rem;
+  height: 1.5rem;
+}
+#pop_fb
+{
+  height: 1.8rem;
+  width:1.8rem;
+}

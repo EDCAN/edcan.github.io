@@ -41,13 +41,23 @@ $(function(){
     $(".calender-list").html("")
   })
 
-  $(".URB").click(function(){
+  $(".rightBtn").click(function(){
       if(window.innerWidth < 600){
         if(unitCount > 3){
 
         }
         else{
-          unitMargin += window.innerWidth/1.1*-1;
+          unitMargin += window.innerWidth*-1;
+          unitCount++;
+          $(".lh").animate({"margin-left":unitMargin},1000)
+        }
+      }
+      else if(window.innerWidth > 1200){
+        if(unitCount > 1){
+
+        }
+        else{
+          unitMargin += window.innerWidth/4*-1;
           unitCount++;
           $(".lh").animate({"margin-left":unitMargin},1000)
         }
@@ -65,14 +75,14 @@ $(function(){
 
   })
 
-  $(".ULB").click(function(){
+  $(".leftBtn").click(function(){
     if(window.innerWidth < 600){
 
       if(unitCount == 0){
 
       }
       else{
-        unitMargin += window.innerWidth/1.1;
+        unitMargin += window.innerWidth;
         unitCount--;
         $(".lh").animate({"margin-left":unitMargin},1000)
       }
@@ -89,13 +99,23 @@ $(function(){
     }
   })
 
-  $(".PRB").click(function(){
+  $(".rightBtn2").click(function(){
     if(window.innerWidth < 600){
       if(projectCount > 3){
 
       }
       else{
         projectMargin += window.innerWidth/1*-1;
+        projectCount++;
+        $(".ts").animate({"margin-left":projectMargin},1000)
+      }
+    }
+    else if(window.innerWidth > 1200){
+      if(projectCount > 1){
+
+      }
+      else{
+        projectMargin += window.innerWidth/4*-1;
         projectCount++;
         $(".ts").animate({"margin-left":projectMargin},1000)
       }
@@ -112,7 +132,7 @@ $(function(){
     }
   })
 
-  $(".PLB").click(function(){
+  $(".leftBtn2").click(function(){
     if(window.innerWidth < 600){
 
       if(projectCount == 0){
