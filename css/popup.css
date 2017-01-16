@@ -7,6 +7,10 @@ html, body{
   display: flex;
   flex-direction: row;
   height: 27.5rem;
+  width:100%;
+  z-index:30;
+  position:absolute;
+  background-color:rgba(255,255,255,0.9);
 }
 
 .none{
@@ -92,4 +96,11 @@ html, body{
 {
   height: 1.8rem;
   width:1.8rem;
+}
+
+
+/* cursor setting */
+
+.pop-x-btn , #pop_git , #pop_fb{
+  cursor:pointer;
 }

@@ -30,6 +30,9 @@
   <link rel="apple-touch-icon" href="img/favicon.png">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="http://cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
+
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/awards.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -42,8 +45,9 @@
 
 </head>
 
-<body>
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
   <section id="p1">
+
     <div class="title-page">
       <div class="title-bg">
         <img src="img/welcome/1p/edcan_profile.png" alt="">
@@ -242,12 +246,12 @@
         <img src="img/welcome/3p/left.png" class="leftBtn_Img">
       </div>
 
-      <div class="pop-box none">
+      <div class="pop-box none popBox">
         <div class="pop-img">
           <!-- <img src="img/temp/temp.png" alt=""> -->
         </div>
         <div class="pop-index">
-          <div class="pop-x-btn">
+          <div class="pop-x-btn pxb">
             <img src="img/temp/ic_clear_black_48dp_2x.png" alt="">
           </div>
           <div class="pop-title">
@@ -291,7 +295,7 @@
       </div>
 
       <div class="project">
-        <div class="project-box ts">
+        <div class="project-box pb ts">
           <div class="project-card">
             <div class="null-box"></div>
             <div class="project_bottom_explain">
@@ -307,7 +311,7 @@
           </div>
         </div>
 
-        <div class="project-box">
+        <div class="project-box pb">
           <div class="project-card">
             <div class="null-box"></div>
             <div class="project_bottom_explain">
@@ -323,7 +327,7 @@
           </div>
         </div>
 
-        <div class="project-box">
+        <div class="project-box pb">
           <div class="project-card">
             <div class="null-box"></div>
             <div class="project_bottom_explain">
@@ -339,7 +343,7 @@
           </div>
         </div>
 
-        <div class="project-box">
+        <div class="project-box pb">
           <div class="project-card">
             <div class="null-box"></div>
             <div class="project_bottom_explain">
@@ -354,7 +358,7 @@
             </div>
           </div>
         </div>
-        <div class="project-box">
+        <div class="project-box pb">
           <div class="project-card">
             <div class="null-box"></div>
             <div class="project_bottom_explain">
@@ -390,7 +394,7 @@
         </div>
       </div>
 
-      <div id="calender-list-wrapper">
+      <div id="calender-list-wrapper" class="cal">
         <div class="calender-list">
           <span class="calender-service">연결고리</span>
           <span class="calender-team">(오준석, 박지수)</span>
@@ -464,8 +468,8 @@
       <img src="img/footer/edcan_logo.png" alt="EDCAN Logo">
     </div>
   </footer>
-
   <script src="js/index.js"></script>
+
 </body>
 
 </html>
