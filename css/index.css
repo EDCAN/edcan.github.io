@@ -395,7 +395,7 @@ padding-bottom: 2.5rem;
     -ms-flex-pack: center;
     justify-content: center;
 }
-@media (min-width : 970px) {
+@media (min-width : 970px) and (device-width : 640px){
 #p3  .link{
     display:flex;
     justify-content:space-around;
