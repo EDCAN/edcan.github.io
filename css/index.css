@@ -35,6 +35,11 @@ body{
   align-items: center;
   flex-direction: column;
 }
+
+.title-down{
+  cursor:pointer;
+}
+
 #p1 .title-page .title-bg{
   display: flex;
   flex-direction: row;

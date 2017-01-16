@@ -282,7 +282,7 @@ $(function(){
     }
   })
 
-  $("#downButton").click(function(){
+  $(".t_d").click(function(){
       var height = window.innerHeight;
     $("body").animate({
       "scrollTop":height
