@@ -98,6 +98,7 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;
     min-width: 220px;
+
     margin-bottom: 1rem;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -395,9 +396,15 @@ padding-bottom: 2.5rem;
     -ms-flex-pack: center;
     justify-content: center;
 }
-@media (min-width : 970px) and (device-width : 640px){
+@media (min-width : 970px){
 #p3  .link{
     display:flex;
     justify-content:space-around;
   }
+}
+
+@media (device-width : 640px){
+  #p3  .link{
+      display:block;
+    }
 }

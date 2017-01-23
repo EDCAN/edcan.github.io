@@ -1,4 +1,5 @@
 $(function(){
+  var cache = [];
   var unit = new Array()
   unit =  ['an','gz','db','px','lh']
   var unitMargin = 0;
@@ -29,6 +30,15 @@ $(function(){
       }
     })
   })
+
+  $.preLoadImages = function() {
+  var args_len = arguments.length;
+    for (var i = args_len; i--;) {
+      var cacheImage = document.createElement('img');
+      cacheImage.src = arguments[i];
+      cache.push(cacheImage);
+    }
+  }
 
 
 // img_url
