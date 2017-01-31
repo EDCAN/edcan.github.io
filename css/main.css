@@ -197,6 +197,7 @@ ul{
 }
 #p3 .title-sub .project-date{
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
 #p3 .title-sub .project-date div{
