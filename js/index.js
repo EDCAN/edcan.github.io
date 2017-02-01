@@ -17,23 +17,16 @@ $(function(){
 
 
   $(document).ready(function(){
-      function isMobile(){
-          var UserAgent = navigator.userAgent;
+        var UserAgent = navigator.userAgent;
 
-          if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
-          {
-            return true;
-          }else{
-            return false;
-          }
-      }
+        if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null)
+        {
+            $(".link").addClass("setBlock");
+            $(".ED_Logo").addClass("maxSize")
+        }else{
+            $(".link").addClass("setFlex");
+        }
 
-      if(isMobile()){
-        alert("Mobile")
-      }
-      else{
-        alert("PC")
-      }
 
     $.ajax({
       method:"GET",
@@ -44,7 +37,7 @@ $(function(){
         twSix = data[1]['awards'];
       },
       error:function(){
-        alert(window.innerWidth);
+        alert("Server Error");
       }
     })
   })

@@ -93,7 +93,7 @@ body{
 #p3 .link {
     width: 100%;
     margin-top: 30px;
-    display:block;
+
 }
 #p3 .link .link_box {
     margin-left: 1rem;
@@ -408,13 +408,16 @@ body{
     /*}*/
 /*}*/
 
-@media (min-device-width : 720px) {
-    #p3  .link{
-        display:flex;
-        justify-content:space-around;
-    }
+.setFlex{
+    display:flex;
+    justify-content:space-around;
+}
 
-    .ED_Logo{
-        background-size:100%;
-    }
+.setBlock{
+    display:block;
+}
+
+.maxSize{
+    width:100%;
+    height:100%;
 }
