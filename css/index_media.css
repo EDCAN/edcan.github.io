@@ -401,5 +401,9 @@ body{
         display:flex;
         justify-content:space-around;
     }
+
+    .ED_Logo{
+        background-size:cover;
+    }
 }
 
