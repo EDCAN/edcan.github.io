@@ -17,7 +17,11 @@ $(function(){
 
 
   $(document).ready(function(){
-    alert(screen.width)
+
+    if(screen.width < 600){
+
+    }
+
     $.ajax({
       method:"GET",
       url:"http://iwin247.net:3000/award",
