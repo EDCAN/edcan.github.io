@@ -408,9 +408,13 @@ body{
     /*}*/
 /*}*/
 
-@media only screen and (max-device-width : 640px){
-    *{
-        margin:1000px;
+@media only screen and (min-device-width : 640px) {
+    #p3  .link{
+        display:flex;
+        justify-content:space-around;
+    }
+
+    .ED_Logo{
+        background-size:100%;
     }
 }
-

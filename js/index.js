@@ -299,13 +299,4 @@ $(function(){
     },500)
   })
 
-
-  $(".pb").click(function(){
-    $(".popBox").removeClass("none");
-  })
-
-  $(".pxb").click(function(){
-    $(".popBox").addClass("none");
-  })
-
 })
