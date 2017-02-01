@@ -1,6 +1,6 @@
 # unit data request
 
-## url : http://iwin248:3000/unit
+## url : http://edcan.iwin247.kr/unit
 
 ## lumihana = lu
 ## pixel = px
