@@ -1,6 +1,9 @@
 body{
     background-color: #eceff1;
+    overflow:scroll;
+    -webkit-overflow-scrolling:touch;
     overflow-x:hidden;
+
 }
 
 *{
@@ -408,16 +411,14 @@ body{
     /*}*/
 /*}*/
 
-.setFlex{
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 736px)
+{
+    #p3  .link{
     display:flex;
     justify-content:space-around;
-}
+    }
 
-.setBlock{
-    display:block;
-}
 
-.maxSize{
-    width:100%;
-    height:100%;
 }
