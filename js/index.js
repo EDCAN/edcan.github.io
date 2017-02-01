@@ -17,6 +17,7 @@ $(function(){
 
 
   $(document).ready(function(){
+
     $.ajax({
       method:"GET",
       url:"http://iwin247.net:3000/award",
@@ -26,7 +27,7 @@ $(function(){
         twSix = data[1]['awards'];
       },
       error:function(){
-        alert("Server Error")
+        alert(window.innerWidth);
       }
     })
   })
