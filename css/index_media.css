@@ -1,92 +1,92 @@
 body{
-  background-color: #eceff1;
+    background-color: #eceff1;
 }
 
 *{
-  font-family: 'Nanum Square';
+    font-family: 'Nanum Square';
 }
 /* PART 1*/
 
 .page-card{
-  box-shadow: 2px 2px 20px 1px gray;
-  background-color: white;
-  margin-bottom: 3rem;
+    box-shadow: 2px 2px 20px 1px gray;
+    background-color: white;
+    margin-bottom: 3rem;
 }
 .page-name > h1{
-  color:rgb(29, 189, 216);
-  font-size: 30pt;
+    color:rgb(29, 189, 216);
+    font-size: 30pt;
 }
 .page-name > h3{
-  color:gray;
-  font-size: 12pt;
+    color:gray;
+    font-size: 12pt;
 }
 .page-name{
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
 #p1{
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 #p1 .title-page{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .title-down{
-  cursor:pointer;
+    cursor:pointer;
 }
 
 #p1 .title-page .title-bg{
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  flex:1;
-  width:100%;
-  justify-content: center;
-  align-items: center;
-  background-image: url('../img/welcome/1p/background.png');
-  background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex:1;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/welcome/1p/background.png');
+    background-size: cover;
 }
 #p1 .title-page .title-down{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-  flex-basis: 50px;
-  flex-shrink: 2;
-  background-color: rgb(21, 27, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    flex-basis: 50px;
+    flex-shrink: 2;
+    background-color: rgb(21, 27, 30);
 }
 #p1 .title-page .title-bg img{
-  width:14rem;
-  height: auto;
+    width:14rem;
+    height: auto;
 }
 #p2{
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 #p2 .intro-card{
-  display: block;
-  padding: 2rem;
-  background-color: rgb(38, 50, 56);
-  color: rgb(212, 212, 212);
+    display: block;
+    padding: 2rem;
+    background-color: rgb(38, 50, 56);
+    color: rgb(212, 212, 212);
 }
 #p2 .intro-card span{
-  color:rgb(29, 189, 216);
-  font-size: 20pt;
+    color:rgb(29, 189, 216);
+    font-size: 20pt;
 }
 #p2 .intro-card p{
-  font-size: 11pt;
-  line-height: 1.7rem;
-  padding-top: 0.7rem;
+    font-size: 11pt;
+    line-height: 1.7rem;
+    padding-top: 0.7rem;
 }
 
 /* PART 2*/ /* 반응형 처리는 안해둠 대신 깨지는 건 전부 막음 큰화면에서 깨지면 톡 ㄱ*/
 #p3{
 
-  padding: 2rem;
+    padding: 2rem;
 
 }
 #p3 .link {
@@ -146,18 +146,18 @@ body{
 
 /*PART3*/
 #p4{
-padding-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 #p4 .page-name{
-  padding: 2rem;
-  padding-bottom: 1rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
 }
 .unit {
-  display: flex;
-  flex-direction: row;
-  overflow-x: hidden;
-  padding-bottom:1rem;
-  padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    padding-bottom:1rem;
+    padding-top: 1rem;
 }
 
 .unit .unit_box {
@@ -212,11 +212,11 @@ padding-bottom: 2.5rem;
     padding-left: 10px;
 }
 .unit_link {
-  display: flex;
-  align-items: center;
-  justify-content: center;;
-  flex-basis: 9rem;
-  flex-shrink: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    flex-basis: 9rem;
+    flex-shrink: 2;
 
 }
 .unit_link > .unit_button {
@@ -305,55 +305,55 @@ padding-bottom: 2.5rem;
 #p5{
 }
 #p5 .page-name{
-  padding: 2rem;
-  padding-bottom: 1rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
 }
 #p5 .project{
-  padding-bottom:1rem;
-  padding-top: 1rem;
-  display: flex;
-  /*height: 100px;*/
+    padding-bottom:1rem;
+    padding-top: 1rem;
+    display: flex;
+    /*height: 100px;*/
 }
 #p5 .project .project-box{
-  display: flex;
-  flex-direction: column;;
-  margin-right:1.5rem;
-  box-shadow: 2px 2px 20px 1px gray;
+    display: flex;
+    flex-direction: column;;
+    margin-right:1.5rem;
+    box-shadow: 2px 2px 20px 1px gray;
 }
 
 .project{
-  overflow:hidden;
+    overflow:hidden;
 }
 #p5 .project .project-box .project-card{
-  background-image: url('../img/temp/temp.png');
-  width:400px;
-  height:320px;
-  background-size: cover;
-  display:flex;
-  flex-direction: column;
+    background-image: url('../img/temp/temp.png');
+    width:400px;
+    height:320px;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
 
 }
 .null-box{
-  flex:1;
+    flex:1;
 }
 .project_bottom_explain{
-  display: flex;
-  flex-basis: 4rem;
-  flex-shrink: 2;
-  color:white;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding-left: 1rem;
-  align-items: center;
-  justify-content:flex-start;
+    display: flex;
+    flex-basis: 4rem;
+    flex-shrink: 2;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 1rem;
+    align-items: center;
+    justify-content:flex-start;
 
 }
 .project-title{
 }
 .project-name{
-  font-size: 18pt;
+    font-size: 18pt;
 }
 .project-subName{
-  font-size: 5pt;
+    font-size: 5pt;
 }
 
 .rightBtn2 {
@@ -396,15 +396,10 @@ padding-bottom: 2.5rem;
     -ms-flex-pack: center;
     justify-content: center;
 }
-@media (min-width : 970px){
-#p3  .link{
-    display:flex;
-    justify-content:space-around;
-  }
-}
-
-@media (device-width : 640px){
-  #p3  .link{
-      display:block;
+@media only screen and (min-width : 970px) and (device-width: 640px){
+    #p3  .link{
+        display:flex;
+        justify-content:space-around;
     }
 }
+
