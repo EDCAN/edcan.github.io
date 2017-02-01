@@ -17,7 +17,7 @@ $(function(){
 
 
   $(document).ready(function(){
-
+    alert(screen.width)
     $.ajax({
       method:"GET",
       url:"http://iwin247.net:3000/award",
