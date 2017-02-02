@@ -1,9 +1,7 @@
 # unit data request
 
-## url : http://edcan.iwin247.kr/unit
-
-## lumihana = lu
-## pixel = px
-## debur = db
-## ggz = gz
-## arduino = ad
+## ATELIER = at
+## EDLabs = el
+## EDResearch = er
+## PIXEL = pi
+## Tech.io = te
