@@ -1,4 +1,4 @@
-# unit data request
+# 2017 Unit Data Request
 
 ## ATELIER = at
 ## EDLabs = el
@@ -6,4 +6,4 @@
 ## PIXEL = pi
 ## Tech.io = te
 
-I hereby inform you that this copyright belongs to EDCAN.
+### I hereby inform you that this copyright belongs to EDCAN.
