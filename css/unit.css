@@ -15,16 +15,21 @@
     background-position: 0 -30vh;
   }
 }
-#p1.lumihana {
-  background-image: url(../img/lumihana/background.png);
+#p1 #topLogo{
+  width:330px;
+  /*padding-bottom: 100px;
+  margin-bottom: 100px;*/
 }
-#p1.lumihana #backButton:hover {
+#p1.atelier {
+  background-image: url(../img/ATELIER/background.png);
+}
+#p1.atelier #backButton:hover {
   color: #c593ac;
 }
-#p1.ggz {
+#p1.edlabs {
   background-image: url(../img/ggz/background.png);
 }
-#p1.ggz #backButton:hover {
+#p1.edlabs #backButton:hover {
   color: #bf8255;
 }
 #p1.pixel {
@@ -33,10 +38,10 @@
 #p1.pixel #backButton:hover {
   color: #b5a9d7;
 }
-#p1.debur {
+#p1.edresearch {
   background-image: url(../img/debur/background.png);
 }
-#p1.debur #backButton:hover {
+#p1.edresearch #backButton:hover {
   color: #569e93;
 }
 @media (min-width: 640px) {
@@ -101,7 +106,7 @@
 @media (min-width: 640px) {
   #p1 #backButton {
     position: absolute;
-    bottom: 300px;
+    bottom: 40%;
     left: 50px;
   }
 }

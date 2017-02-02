@@ -29,43 +29,42 @@
 .fb > .bottom_link {
     background-color: rgb(49, 73, 122);
 }
-.unit > .an > .unit_card {
-    background-color: rgb(197, 239, 239);
+.unit > .tech > .unit_card {
+    background-color: #e4c0ff;
 }
 
-.unit .db .unit_card {
-    background-color: rgb(188, 237, 225);
+.unit .rsch .unit_card {
+    background-color: #bcffe3;
 }
 
-.unit .lh .unit_card {
-    background-color: rgb(255, 206, 242);
+.unit .atl .unit_card {
+    background-color: #cbc3ff;
 }
 
-.unit > .gz > .unit_card {
-    background-color: rgb(254, 237, 224);
+.unit > .labs > .unit_card {
+    background-color: #ffbde4;
 }
 
 .unit > .px > .unit_card {
-    background-color: rgb(221, 211, 253);
+    background-color: #ffb5b5;
 }
 
-.db > .bottom_explain {
+.rsch > .bottom_explain {
     background-color: rgb(76, 92, 92);
 }
 
-.lh > .bottom_explain {
+.atl > .bottom_explain {
     background-color: rgb(105, 56, 92);
 }
 
-.gz > .bottom_explain {
+.labs > .bottom_explain {
     background-color: rgb(102, 95, 89);
 }
 
 .px > .bottom_explain {
     background-color: rgb(86, 82, 99);
 }
-
-.an > .bottom_explain {
+.tech > .bottom_explain {
     background-color: rgb(78, 94, 94);
 }
 .github:hover {

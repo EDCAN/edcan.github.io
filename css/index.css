@@ -178,15 +178,18 @@ padding-bottom: 2.5rem;
     overflow-x: hidden;
     width:25rem;
 }
-.unit > .unit_box > .unit_card img {
+.unit .px .unit_card img {
     width: 150px;
     height: auto;
 }
-
-.unit > .an > .unit_card img {
-    width: 190px;
+.unit .atl .unit_card img {
+    width: 130px;
     height: auto;
 }
+/*.unit > .an > .unit_card img {
+    width: 150px;
+    height: auto;
+}*/
 .bottom_explain {
     color: white;
     display: -webkit-box;

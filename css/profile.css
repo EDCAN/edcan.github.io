@@ -12,18 +12,18 @@ body {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background-image: url(../img/profile/background.png);
+  background-image: url(../img/profile/ATELIER_background.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-#p1 #backgroundCover {
+/*#p1 #backgroundCover {
   position: absolute;
   z-index: -999;
   width: 100%;
   height: 100%;
   opacity: 0.7;
-}
+}*/
 #p1 .lumihana {
   background-color: #ffb8db;
 }
@@ -48,6 +48,9 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+#p1 #profileImage{
+  width:335px;
 }
 @media (max-width: 569px) {
   #p1 #memberProfile #profileImage {
@@ -126,17 +129,17 @@ body {
 #p1 #buttonContainer .button:hover {
   background-color: #fff;
 }
-#p1 #buttonContainer .lumihana_hover:hover {
+#p1 #buttonContainer .EDLabs:hover {
   color: #b8005b;
 }
-#p1 #buttonContainer .ggz_hover:hover {
+#p1 #buttonContainer .PIXEL:hover {
   color: #5c2800;
 }
-#p1 #buttonContainer .pixel_hover:hover {
+#p1 #buttonContainer .Tech_io:hover {
   color: #2e00bd;
 }
-#p1 #buttonContainer .debur_hover:hover {
-  color: #000000;
+#p1 #buttonContainer .ATELIER_hover:hover {
+  color: #2e00bd;
 }
 #p2 {
   box-sizing: border-box;

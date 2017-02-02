@@ -110,8 +110,27 @@ ul{
   flex:1;
 }
 #p1 header .menu-right{
-  flex-basis: 30rem;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 17rem;
   flex-shrink: 2;
+  align-items: center;
+  justify-content:flex-end;;;
+  /*padding-right: 1rem;*/
+}
+#p1 header .menu-right .menu-icon{
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+  border-left: 1px solid gray;
+  height: 100%;
+  width:5rem;
+
+}
+#p1 header .menu-right .menu-icon img{
+  width:auto;
+  height: 1rem;
+  cursor: pointer;
 }
 #p1 .unit-logo img{
   margin-left: -20px;
@@ -263,6 +282,4 @@ ul{
   font-size: 10pt;
   border-radius: 18px;
   color:gray;
-
-
 }
