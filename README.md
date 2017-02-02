@@ -1,3 +1,11 @@
+# 2016 Unit Data Request
+
+## Lumihana = lu
+## DEBUR = de
+## PIXEL = pi
+## GGZ = gz
+## ARDUINO = ar
+
 # 2017 Unit Data Request
 
 ## ATELIER = at
@@ -6,4 +14,5 @@
 ## PIXEL = pi
 ## Tech.io = te
 
-### I hereby inform you that this copyright belongs to EDCAN.
+## Edblock Plus = ep
+## HEADSTAFF = hs
