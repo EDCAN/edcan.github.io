@@ -188,7 +188,7 @@ $(function(){
 
         }
         else{
-          unitMargin += window.innerWidth*-1.2;
+          unitMargin += window.innerWidth*-1;
           unitCount++;
           $(".atl").animate({"margin-left":unitMargin},1000)
         }
@@ -246,7 +246,7 @@ $(function(){
 
       }
       else{
-        projectMargin += window.innerWidth/1*-1.2;
+        projectMargin += window.innerWidth/1*-1;
         projectCount++;
         $(".ts").animate({"margin-left":projectMargin},1000)
       }
@@ -280,7 +280,7 @@ $(function(){
 
       }
       else{
-        projectMargin += window.innerWidth/0.8;
+        projectMargin += window.innerWidth/1;
         projectCount--;
         $(".ts").animate({"margin-left":projectMargin},1000)
       }
