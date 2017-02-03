@@ -172,6 +172,12 @@ ul{
   outline: none;
   cursor:pointer;
 }
+#p1 .bottom-button-group div button:hover{
+  background-color: white;
+  color:black;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
 #p1 .bottom-button-group .back-button{
   justify-content: flex-start;
 }
