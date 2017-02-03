@@ -410,9 +410,3 @@ padding-bottom: 2.5rem;
     justify-content:space-around;
   }
 }
-
-@media (device-width : 640px){
-  #p3  .link{
-      display:block;
-    }
-}
