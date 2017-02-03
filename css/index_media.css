@@ -187,8 +187,16 @@ body{
     height: auto;
 }
 
-.unit > .an > .unit_card img {
-    width: 190px;
+.unit > .tech > .unit_card img {
+    width: 100px;
+    height: auto;
+}
+.unit > .rsch > .unit_card img {
+    width: 100px;
+    height: auto;
+}
+.unit > .atl > .unit_card img {
+    width: 120px;
     height: auto;
 }
 .bottom_explain {

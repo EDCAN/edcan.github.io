@@ -190,7 +190,7 @@ $(function(){
         else{
           unitMargin += window.innerWidth*-1;
           unitCount++;
-          $(".lh").animate({"margin-left":unitMargin},1000)
+          $(".atl").animate({"margin-left":unitMargin},1000)
         }
       }
       else if(window.innerWidth > 1200){
@@ -200,7 +200,7 @@ $(function(){
         else{
           unitMargin += window.innerWidth/4*-1;
           unitCount++;
-          $(".lh").animate({"margin-left":unitMargin},1000)
+          $(".atl").animate({"margin-left":unitMargin},1000)
         }
       }
       else{
@@ -210,7 +210,7 @@ $(function(){
         else{
           unitMargin += window.innerWidth/4*-1;
           unitCount++;
-          $(".lh").animate({"margin-left":unitMargin},1000)
+          $(".atl").animate({"margin-left":unitMargin},1000)
         }
       }
 
@@ -225,7 +225,7 @@ $(function(){
       else{
         unitMargin += window.innerWidth;
         unitCount--;
-        $(".lh").animate({"margin-left":unitMargin},1000)
+        $(".atl").animate({"margin-left":unitMargin},1000)
       }
     }
     else{
@@ -235,7 +235,7 @@ $(function(){
       else{
         unitMargin += window.innerWidth/4;
         unitCount--;
-        $(".lh").animate({"margin-left":unitMargin},1000)
+        $(".atl").animate({"margin-left":unitMargin},1000)
       }
     }
   })

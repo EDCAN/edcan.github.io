@@ -178,14 +178,14 @@ padding-bottom: 2.5rem;
     overflow-x: hidden;
     width:25rem;
 }
-.unit .px .unit_card img {
+/*.unit .px .unit_card img {
     width: 150px;
     height: auto;
 }
-.unit .atl .unit_card img {
+.unit .tech div img {
     width: 130px;
     height: auto;
-}
+}*/
 /*.unit > .an > .unit_card img {
     width: 150px;
     height: auto;
@@ -217,10 +217,15 @@ padding-bottom: 2.5rem;
 .unit_link {
   display: flex;
   align-items: center;
-  justify-content: center;;
+  justify-content: center;
   flex-basis: 9rem;
   flex-shrink: 2;
-
+}
+.unit_button:hover {
+  background-color: white;
+  color:black;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 .unit_link > .unit_button {
     border: 1px solid white;
