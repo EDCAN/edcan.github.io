@@ -183,118 +183,27 @@ $(function(){
   })
 
   $(".rightBtn").click(function(){
-      if(window.innerWidth < 600){
-        if(unitCount > 3){
-
-        }
-        else{
-          unitMargin += window.innerWidth*-1;
+          unitMargin -= window.innerWidth;
           unitCount++;
           $(".atl").animate({"margin-left":unitMargin},1000)
-        }
-      }
-      else if(window.innerWidth > 1200){
-        if(unitCount > 1){
-
-        }
-        else{
-          unitMargin += window.innerWidth/4*-1;
-          unitCount++;
-          $(".atl").animate({"margin-left":unitMargin},1000)
-        }
-      }
-      else{
-        if(unitCount > 4){
-
-        }
-        else{
-          unitMargin += window.innerWidth/4*-1;
-          unitCount++;
-          $(".atl").animate({"margin-left":unitMargin},1000)
-        }
-      }
-
   })
 
   $(".leftBtn").click(function(){
-    if(window.innerWidth < 600){
-
-      if(unitCount == 0){
-
-      }
-      else{
         unitMargin += window.innerWidth;
         unitCount--;
-        $(".atl").animate({"margin-left":unitMargin},1000)
-      }
-    }
-    else{
-      if(unitCount == 0){
-
-      }
-      else{
-        unitMargin += window.innerWidth/4;
-        unitCount--;
-        $(".atl").animate({"margin-left":unitMargin},1000)
-      }
-    }
+        $(".atl").animate({"margin-left":unitMargin},1000);
   })
 
   $(".rightBtn2").click(function(){
-    if(window.innerWidth < 600){
-      if(projectCount > 3){
-
-      }
-      else{
-        projectMargin += window.innerWidth/1*-1;
+        projectMargin -= window.innerWidth;
         projectCount++;
         $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-    else if(window.innerWidth > 1200){
-      if(projectCount > 1){
-
-      }
-      else{
-        projectMargin += window.innerWidth/4*-1;
-        projectCount++;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-    else{
-      if(projectCount > 4){
-
-      }
-      else{
-        projectMargin += window.innerWidth/4*-1;
-        projectCount++;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
   })
 
   $(".leftBtn2").click(function(){
-    if(window.innerWidth < 600){
-
-      if(projectCount == 0){
-
-      }
-      else{
-        projectMargin += window.innerWidth/1;
+        projectMargin += window.innerWidth;
         projectCount--;
         $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-    else{
-      if(projectCount == 0){
-
-      }
-      else{
-        projectMargin += window.innerWidth/4;
-        projectCount--;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
   })
 
   $(".t_d").click(function(){
