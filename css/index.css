@@ -88,6 +88,7 @@ body{
 
   padding: 2rem;
 
+
 }
 #p3 .link {
     width: 100%;
@@ -167,8 +168,8 @@ padding-bottom: 2.5rem;
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 20px 1px gray;
-
-    width:100vw;
+    margin-right: 1.5rem;
+    width:25rem;
 }
 .unit > .unit_box > .unit_card {
     display: flex;
@@ -178,7 +179,8 @@ padding-bottom: 2.5rem;
     flex-basis: 15rem;
     flex-shrink: 2;
     overflow-x: hidden;
-    width:100vw;
+    width:25rem;
+    overflow-y:hidden;
 }
 /*.unit .px .unit_card img {
     width: 150px;
@@ -298,6 +300,7 @@ padding-bottom: 2.5rem;
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
+    height: 40%;
 }
 
 .link_button {
@@ -328,6 +331,7 @@ padding-bottom: 2.5rem;
   display: flex;
   flex-direction: column;;
   box-shadow: 2px 2px 20px 1px gray;
+    margin-right:1.5rem;
 }
 
 .project{
@@ -414,15 +418,15 @@ padding-bottom: 2.5rem;
 
 @media (max-width : 400px){
     .unit .unit_box {
-        margin-right: 1.5rem;
-        width:25rem;
+        width:100vw;
+        margin-right:0;
     }
 
     .unit > .unit_box > .unit_card {
-        width:25rem;
+        width:100vw;
     }
 
     #p5 .project .project-box{
-        margin-right:1.5rem;
+        margin-right:0;
     }
 }
