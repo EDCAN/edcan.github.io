@@ -45,36 +45,6 @@ $(function(){
     }
   }
 
-
-// img_url
-// :
-// Array[0]
-// member
-// :
-// Array[2]
-// 0
-// :
-// "박정찬"
-// 1
-// :
-// "정준우"
-// length
-// :
-// 2
-// __proto__
-// :
-// Array[0]
-// prize
-// :
-// "최우수상"
-// project_name
-// :
-// "I.EVERYTHING.U"
-// where
-// :
-// "서울시 29초 영화제"
-
-
   $(".youtube").click(function(){
     location.href ="https://www.youtube.com/channel/UCt-s5ERAPuDsxvDhe5U5Ujw"
   })
