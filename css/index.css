@@ -410,7 +410,9 @@ padding-bottom: 2.5rem;
         display:flex;
         justify-content:space-around;
     }
+}
 
+@media (max-width : 400px){
     .unit .unit_box {
         margin-right: 1.5rem;
         width:25rem;
