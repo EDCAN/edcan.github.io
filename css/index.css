@@ -291,16 +291,14 @@ padding-bottom: 2.5rem;
 }
 
 .btn_box {
-    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
-    height: 40%;
+
 }
 
 .link_button {
@@ -409,6 +407,7 @@ padding-bottom: 2.5rem;
     -ms-flex-pack: center;
     justify-content: center;
 }
+
 @media (min-width : 970px){
     #p3  .link{
         display:flex;
@@ -416,7 +415,7 @@ padding-bottom: 2.5rem;
     }
 }
 
-@media (max-width : 400px){
+@media (max-width : 500px){
     .unit .unit_box {
         width:100vw;
         margin-right:0;
