@@ -327,7 +327,6 @@ padding-bottom: 2.5rem;
 #p5 .project .project-box{
   display: flex;
   flex-direction: column;;
-  margin-right:1.5rem;
   box-shadow: 2px 2px 20px 1px gray;
 }
 
@@ -419,5 +418,9 @@ padding-bottom: 2.5rem;
 
     .unit > .unit_box > .unit_card {
         width:25rem;
+    }
+
+    #p5 .project .project-box{
+        margin-right:1.5rem;
     }
 }
