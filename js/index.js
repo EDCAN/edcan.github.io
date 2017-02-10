@@ -21,7 +21,7 @@ $(function(){
     if(screen.width < 600){
 
     }
-
+/*
     $.ajax({
       method:"GET",
       url:"http://iwin247.net:3000/award",
@@ -35,7 +35,7 @@ $(function(){
       }
     })
   })
-
+*/
   $.preLoadImages = function() {
   var args_len = arguments.length;
     for (var i = args_len; i--;) {
