@@ -34,8 +34,9 @@ $(function(){
         alert("Server Error");
       }
     })
+    */
   })
-*/
+
   $.preLoadImages = function() {
   var args_len = arguments.length;
     for (var i = args_len; i--;) {
