@@ -292,7 +292,7 @@ padding-bottom: 2.5rem;
 
 .btn_box {
 
-    width: 100%;
+    width: 100vw;
 
     display: -webkit-box;
     display: -webkit-flex;
