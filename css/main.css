@@ -31,9 +31,10 @@ ul{
   background-image: url('../img/main/background.png');
 }
 #p1 .unit-logo{
+  margin-top: 80px; // header menu height
   display: flex;
-  align-items: flex-end;
-  flex:10;
+  align-items: flex-end;;;
+  /*flex:6;*/
 }
 #p1 .title-text{
   display: flex;
@@ -132,12 +133,27 @@ ul{
   height: 1rem;
   cursor: pointer;
 }
+#p1 .unit-logo{
+  display: flex;
+  /*flex-direction: column;*/
+  /*min-height: rem;*/
+  /*max-height: 15rem;*/
+}
 #p1 .unit-logo img{
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: -1.3rem;
+  margin-right: -1.3rem;
   padding: 0px;
   width:14rem;
-  height: auto;
+  height: 14rem;
+}
+#p1 .unit-top-line{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+#p1 .unit-bottom-line{
+  display: flex;
+  margin-top: -7.7rem;
 }
 #p1 .line{
   /*border: 1px solid white;*/
@@ -147,6 +163,8 @@ ul{
   margin-bottom: 20px;
 }
 #p1 .title-text{
+  display: flex;
+  /*align-items: center;*/
   color:white;
   font-size: 35pt;
 }
@@ -289,8 +307,17 @@ ul{
   border-radius: 18px;
   color:gray;
 }
-
-
 .none{
   display:none;
+}
+@media (max-width : 970px)
+{
+  #p1 .unit-logo{
+    flex-direction: column;
+  }
+}
+@media (min-width : 970px) {
+  #p1 .unit-logo{
+    flex:6;
+  }
 }
