@@ -295,7 +295,7 @@ padding-bottom: 2.5rem;
     display: -ms-flexbox;
     display: flex;
     -webkit-align-items: center;
-    -ms-flex-align: center;
+    /*-ms-flex-align: center;*/
     align-items: center;
     width: 100%;
 
