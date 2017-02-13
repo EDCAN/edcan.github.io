@@ -223,7 +223,7 @@ $(function(){
       }
     }
     else if(window.innerWidth > 1200){
-      if(projectCount > 1){
+      if(projectCount > 2){
 
       }
       else{
@@ -233,7 +233,7 @@ $(function(){
       }
     }
     else{
-      if(projectCount > 4){
+      if(projectCount > 6){
 
       }
       else{

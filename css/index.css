@@ -341,7 +341,7 @@ padding-bottom: 2.5rem;
   overflow:hidden;
 }
 #p5 .project .project-box .project-card{
-  background-image: url('../img/temp/temp.png');
+  /*background-image: url('../img/temp/temp.png');*/
   width:400px;
   height:320px;
   background-size: cover;
@@ -349,6 +349,32 @@ padding-bottom: 2.5rem;
   flex-direction: column;
 
 }
+
+.han{
+    background-image:url("../img/award/resource_204hangulo.png");
+}
+
+.re{
+    background-image:url("../img/award/resource_rerant.png");
+}
+
+.tras{
+    background-image:url("../img/award/resource_travel.png");
+
+}
+
+.ba{
+    background-image:url("../img/award/resource_barn.png");
+}
+
+.sr{
+    background-image:url("../img/award/resource_sr.png");
+}
+
+.alpha{
+    background-image:url("../img/award/resource_alphaeuseoul.png");
+}
+
 .null-box{
   flex:1;
 }
