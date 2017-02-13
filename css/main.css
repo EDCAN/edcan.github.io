@@ -43,7 +43,7 @@ ul{
 }
 #p1 .bottom-button-group{
   flex:3;
-  display: flex;
+  /*display: flex;*/
   align-items: flex-end;
 }
 #p1 .flex-null{
@@ -315,9 +315,43 @@ ul{
   #p1 .unit-logo{
     flex-direction: column;
   }
+  #p1 .bottom-button-group{
+    display: none;
+  }
+  #p1 .menu-left .menu-box{
+    display: none;
+  }
+  #p1 header{
+    width:100%;
+    background-color: rgb(70, 90, 99);
+    height: 70px;
+  }
+  #p1 header .menu-left{
+    flex:1;
+    justify-content: center;
+  }
+  #p1 header .menu-right{
+    display: none;
+  }
+  #p1 .menu-null{
+    display: none;
+  }
+  .menu-m-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:4rem;
+  }
 }
 @media (min-width : 970px) {
   #p1 .unit-logo{
     flex:6;
   }
+  #p1 .bottom-button-group{
+    display: flex;
+  }
+  #p1 header .menu-m-side{
+    display: none;
+  }
+
 }
