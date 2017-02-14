@@ -443,5 +443,8 @@ header .menu .menu-right .menu-icon img{
   header .menu .menu-m-side{
     display: none;
   }
+  nav{
+    display: none;
+  }
 
 }
