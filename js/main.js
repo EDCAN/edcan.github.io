@@ -31,3 +31,23 @@ $(".menu-icon").click(
     }
   }
 )
+$('.side-unit-title').click(
+  function() {
+    if($(".side-unit-index").hasClass('none')){
+      $(".side-unit-index").removeClass("none");
+    }
+    else{
+      $(".side-unit-index").addClass("none");
+    }
+  }
+)
+$('.side-project-title').click(
+  function() {
+    if($(".side-project-index").hasClass('none')){
+      $(".side-project-index").removeClass("none");
+    }
+    else{
+      $(".side-project-index").addClass("none");
+    }
+  }
+)
