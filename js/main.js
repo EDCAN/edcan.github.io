@@ -1,5 +1,5 @@
 /**
- * Created by janghunlee on 2017. 2. 12..
+ * Created by janghunlee on 2017. 2. 12.. << FUCK YOU
  */
 
 $(".project").hover(
@@ -19,3 +19,15 @@ $(".unit").hover(
         $(".unit_list").addClass("none");
     }
 );
+$(".menu-icon").click(
+  function() {
+    if($('nav').hasClass('open')){
+      $('nav').removeClass("open");
+      $('nav').addClass("close");
+    }
+    else{
+      $('nav').addClass("open");
+      $('nav').removeClass("close");
+    }
+  }
+)
