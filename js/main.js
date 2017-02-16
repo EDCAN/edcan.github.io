@@ -1,7 +1,11 @@
 /**
  * Created by janghunlee on 2017. 2. 12.. << FUCK YOU
  */
-
+$(document).ready(
+  function () {
+    $('nav').css('height',$(document).height())
+  }
+)
 $(".project").hover(
     function () {
         $(".project_list").removeClass("none");
@@ -50,4 +54,4 @@ $('.side-project-title').click(
       $(".side-project-index").addClass("none");
     }
   }
-)
+);
