@@ -124,6 +124,9 @@ header .menu{
   height: 80px;
   width:90%;
   position: fixed;;
+  transform: translateZ(0);
+-webkit-transform: translateZ(0);
+  z-index: 100;
   top:0;
   background-color: rgb(54, 70, 78);
 }
@@ -374,16 +377,9 @@ header .menu .menu-right .menu-icon img{
   display:none;
 }
 .box {
-  width:300px;
+  width: 880px;
   height: 330px;
   /*border-radius: .5em;*/
-
-
-}
-
-.flex_box{
-  display:flex;
-  justify-content:flex-end;
 }
 .sunrise {
     /*position: absolute;*/
@@ -394,30 +390,20 @@ header .menu .menu-right .menu-icon img{
 .slider {
     width: 390px;
    overflow: hidden;
-
+   transform: skewX(-20deg);
 }
 .sunset {
+    transform: skewX(20deg);
     font-size: 30pt;
     margin-left: 76px;
    background: url('../Resource/resource_204blowit.png');
+   z-index: -1;
+
    background-repeat: no-repeat;
-   background-size: 100%;
-
+   background-size: 50%;
 }
-
-.arrow
-{
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-
-  border-top: 250px solid #fff;
-
-
-}
-
 .slider {
-margin-left: -75px;
+margin-left: -62px;
 }
 @media (max-width : 970px)
 {
