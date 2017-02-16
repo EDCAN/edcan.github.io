@@ -374,9 +374,16 @@ header .menu .menu-right .menu-icon img{
   display:none;
 }
 .box {
-  width: 880px;
+  width:300px;
   height: 330px;
   /*border-radius: .5em;*/
+
+
+}
+
+.flex_box{
+  display:flex;
+  justify-content:flex-end;
 }
 .sunrise {
     /*position: absolute;*/
@@ -387,18 +394,30 @@ header .menu .menu-right .menu-icon img{
 .slider {
     width: 390px;
    overflow: hidden;
-   transform: skewX(-20deg);
+
 }
 .sunset {
-    transform: skewX(20deg);
     font-size: 30pt;
     margin-left: 76px;
    background: url('../Resource/resource_204blowit.png');
    background-repeat: no-repeat;
-   background-size: 50%;
+   background-size: 100%;
+
 }
+
+.arrow
+{
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+
+  border-top: 250px solid #fff;
+
+
+}
+
 .slider {
-margin-left: -62px;
+margin-left: -75px;
 }
 @media (max-width : 970px)
 {
