@@ -18,13 +18,10 @@ $(function(){
 
   $(document).ready(function(){
 
-    if(screen.width < 600){
 
-    }
-/*
     $.ajax({
       method:"GET",
-      url:"http://iwin247.net:3000/award",
+      url:"http://edcan.iwin247.kr/award",
       success:function(data){
 
         twFive = data[0]['awards'];
@@ -34,7 +31,7 @@ $(function(){
         alert("Server Error");
       }
     })
-    */
+
   })
 
   $.preLoadImages = function() {
