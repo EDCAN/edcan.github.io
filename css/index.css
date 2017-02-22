@@ -1,9 +1,11 @@
+@import url(//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css);
+
 body{
   background-color: #eceff1;
 }
 
 *{
-  font-family: 'Nanum Square';
+    font-family: 'NanumSquare', sans-serif;
 }
 /* PART 1*/
 
