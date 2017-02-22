@@ -64,6 +64,10 @@ $(function(){
 
   $(".unit_button").click(function(){
     location.href="unit"
+  });
+
+  $(".more").click(function(){
+    location.href="main"
   })
 
   $("#left-angle").click(function(){

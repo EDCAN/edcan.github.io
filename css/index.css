@@ -12,10 +12,37 @@ body{
   background-color: white;
   margin-bottom: 3rem;
 }
-.page-name > h1{
+.page-name > .project-more >  h1{
   color:rgb(29, 189, 216);
   font-size: 30pt;
 }
+
+.page-name > h1{
+    color:rgb(29, 189, 216);
+    font-size: 30pt;
+}
+
+.project-more{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.more{
+    border:1px solid gray;
+    border-radius:40px;
+    color:gray;
+
+    padding:10px;
+    cursor:pointer;
+}
+
+.more:hover{
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+}
+
+
 .page-name > h3{
   color:gray;
   font-size: 12pt;
