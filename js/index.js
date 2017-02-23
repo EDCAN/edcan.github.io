@@ -21,7 +21,7 @@ $(function(){
 
     $.ajax({
       method:"GET",
-      url:"http://edcan.iwin247.kr/award",
+      url:"http://edcan.iwin247.kr/awards",
       success:function(data){
 
         twFive = data[0]['awards'];
