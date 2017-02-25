@@ -488,4 +488,8 @@ padding-bottom: 2.5rem;
     #p5 .project .project-box{
         margin-right:0;
     }
+
+    .more{
+        width:100px;
+    }
 }
