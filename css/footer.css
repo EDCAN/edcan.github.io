@@ -34,7 +34,7 @@ footer #footerWrapper {
 }
 @media (max-width: 639px) {
   footer #footerWrapper img {
-    width: 100%;
+    margin-right:calc(100% - 210px);
   }
 }
 footer #footerWrapper a {
