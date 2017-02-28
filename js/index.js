@@ -64,7 +64,7 @@ $(function(){
   });
 
   $(".more").click(function(){
-    location.href="main"
+    location.href="portfolio"
   })
 
   $("#left-angle").click(function(){
