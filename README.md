@@ -14,6 +14,14 @@
 * Edblock Plus = ep
 * HEADSTAFF = hs
 
+# Main Page & Apply Page Background Color Code
+* ATELIER = #e4e0ff
+* EDLabs = #ffe8f6
+* EDResearch = #dffff1
+* PIXEL = #ffe0e0
+* Tech.io = #f4e6ff
+* EDCAN = #d1f9ff
+
 # Unit Page Background Color Code
 * ATELIER = #cbc3ff
 * EDLabs = #ffbde4
