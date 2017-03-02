@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172f6438-4700-4154-9fb7-3b4da8cd2240" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN APPLY MAIN/bg_left_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN APPLY MAIN/ic_edlabs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN APPLY MAIN/ic_right_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN FRESHMAN MAIN/bg_picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN FRESHMAN MAIN/ic_edcan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN FRESHMAN MAIN/ic_medal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN PERSONAL INFORMATION/bg_picture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN PERSONAL INFORMATION/ic_call.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN PERSONAL INFORMATION/ic_e-mail.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN PERSONAL INFORMATION/ic_edcan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN PERSONAL INFORMATION/ic_person.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN PERSONAL INFORMATION/ic_school.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resource/EDCAN PREPARATION OF PROVISIONS/ic_edcan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Screenshot/EDCAN PERSONAL INFORMATION.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,21 +20,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="260" column="16" lean-forward="false" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
+            <state relative-caret-position="190">
+              <caret line="258" column="43" lean-forward="false" selection-start-line="258" selection-start-column="43" selection-end-line="258" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="-480">
+              <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -204,8 +189,8 @@
         <option value="$PROJECT_DIR$/test/popup/popup.css" />
         <option value="$PROJECT_DIR$/popup.html" />
         <option value="$PROJECT_DIR$/css/popup.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -568,7 +553,7 @@
       <workItem from="1488037804153" duration="2231000" />
       <workItem from="1488170092959" duration="4673000" />
       <workItem from="1488450875791" duration="430000" />
-      <workItem from="1488464686307" duration="43000" />
+      <workItem from="1488464686307" duration="193000" />
     </task>
     <task id="LOCAL-00001" summary="remove S7 media query  &amp; fix iphone media query">
       <created>1485957152825</created>
@@ -665,7 +650,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38090000" />
+    <option name="totallyTimeSpent" value="38240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1002,18 +987,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="260" column="16" lean-forward="false" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
+        <state relative-caret-position="-480">
+          <caret line="62" column="19" lean-forward="true" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        <state relative-caret-position="190">
+          <caret line="258" column="43" lean-forward="false" selection-start-line="258" selection-start-column="43" selection-end-line="258" selection-end-column="43" />
           <folding />
         </state>
       </provider>
