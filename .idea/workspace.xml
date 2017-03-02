@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172f6438-4700-4154-9fb7-3b4da8cd2240" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="172f6438-4700-4154-9fb7-3b4da8cd2240" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -460,14 +458,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/test/popup" />
       <recent name="$PROJECT_DIR$/css/test/img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css/test" />
     </key>
   </component>
   <component name="RunManager">
@@ -553,7 +551,7 @@
       <workItem from="1488037804153" duration="2231000" />
       <workItem from="1488170092959" duration="4673000" />
       <workItem from="1488450875791" duration="430000" />
-      <workItem from="1488464686307" duration="193000" />
+      <workItem from="1488464686307" duration="550000" />
     </task>
     <task id="LOCAL-00001" summary="remove S7 media query  &amp; fix iphone media query">
       <created>1485957152825</created>
@@ -650,7 +648,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38240000" />
+    <option name="totallyTimeSpent" value="38597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
