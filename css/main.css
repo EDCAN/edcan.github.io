@@ -316,6 +316,7 @@ header .menu .menu-right .menu-icon img{
 }
 #p3 .title-sub .subText{
   color:gray;
+  display: block;
 }
 #p3 .title-sub .project-date{
   display: flex;
@@ -496,6 +497,8 @@ margin-left: -62px;
   #p3 .project-box{
     /*min-width: 300px;*/
     max-width: 45.5%;
+    margin-right: 25px;
+    margin-left: 25px;
   }
   #p3 .project-box-group{
     display: flex;
@@ -505,10 +508,10 @@ margin-left: -62px;
 }
 @media (min-width : 768px) {
   #p3 .project-box{
-    margin-right: 25px;
-    margin-left: 25px;
+
 
   }
+
   #p3 .project-box-group{
     /*display: flex;*/
     width:100%;
@@ -520,7 +523,16 @@ margin-left: -62px;
   #p3 .project-box-group{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /*width:100%;*/
   }
-
+  #p3 .title-sub .subText{
+    display: none;
+  }
+  #p3 .title-sub{
+    justify-content: center;
+  }
+  #p3 .title-text{
+    text-align: center;
+  }
 }
