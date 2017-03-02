@@ -333,14 +333,14 @@ header .menu .menu-right .menu-icon img{
 }
 #p3 .project-box-group{
   /*display: flex;*/
-  justify-content: center;
+  /*justify-content: center;*/
 }
 #p3 .project-box{
-  float: left;
+  /*float: left;*/
   display: flex;
-  width:100%;
-  max-width: 45.5%;
-  min-width: 350px;
+  /*width:100%;*/
+  /*max-width: 45.5%;*/
+  min-width: 500px;
   height: 250px;
   border: 1px solid black;
   /*float: left;*/
@@ -370,6 +370,7 @@ header .menu .menu-right .menu-icon img{
   color:gray;
   padding: 1rem;
   padding-left: 3rem;
+  min-width: 100px;
 }
 #p3 .project-box .right-index .project-button{
   display: flex;
@@ -394,16 +395,18 @@ header .menu .menu-right .menu-icon img{
 .box {
   width: 880px;
   height: 330px;
+
   /*border-radius: .5em;*/
 }
 .sunrise {
     /*position: absolute;*/
+    /*min-width: 300px;*/
     text-align: right;
     font-size: 30pt;
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
 }
 .slider {
-    width: 390px;
+   width: 400px;
    overflow: hidden;
    transform: skewX(-20deg);
 }
@@ -411,11 +414,10 @@ header .menu .menu-right .menu-icon img{
     transform: skewX(20deg);
     font-size: 30pt;
     margin-left: 76px;
-   background: url('../Resource/resource_204blowit.png');
-   z-index: -1;
 
-   background-repeat: no-repeat;
-   background-size: 50%;
+   z-index: -1;
+   /*background-repeat: no-repeat;*/
+   /*background-size: cover;*/
 }
 .slider {
 margin-left: -62px;
@@ -472,6 +474,10 @@ margin-left: -62px;
   #p1 .unit-bottom-line{
     margin-top: -4.9rem;
   }
+  #p3 .project-box{
+    min-width: 350px;
+    max-width: 100%;
+  }
 
 }
 @media (min-width : 970px) {
@@ -487,7 +493,14 @@ margin-left: -62px;
   nav{
     display: none;
   }
-
+  #p3 .project-box{
+    /*min-width: 300px;*/
+    max-width: 45.5%;
+  }
+  #p3 .project-box-group{
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 }
 @media (min-width : 768px) {
@@ -497,14 +510,17 @@ margin-left: -62px;
 
   }
   #p3 .project-box-group{
-    display: flex;
+    /*display: flex;*/
     width:100%;
+    float: left;
   }
+
 }
 @media (max-width : 768px) {
   #p3 .project-box-group{
     display: flex;
     flex-wrap: wrap;
-    width:100%;
+    /*width:100%;*/
   }
+
 }
