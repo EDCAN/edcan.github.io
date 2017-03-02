@@ -468,14 +468,14 @@ padding-bottom: 2.5rem;
     justify-content: center;
 }
 
-@media (min-width : 970px){
+@media (min-width : 1000px){
     #p3  .link{
         display:flex;
         justify-content:space-around;
     }
 }
 
-@media (max-width : 500px){
+@media (max-width : 999px){
     .unit .unit_box {
         width:100vw;
         margin-right:0;
