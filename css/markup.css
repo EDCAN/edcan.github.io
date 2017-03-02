@@ -1,0 +1,107 @@
+.slider div{
+  background-size: 50%;
+}
+/*한글을 한글로*/
+.hh{
+  background: url('../Resource/resource_204hangulo.png');
+}
+/*쿰척*/
+.ch{
+  background: url('../Resource/resource_cumchuck.png');
+}
+/*효돌이*/
+.hd{
+  background: url('../Resource/resource_hodoryi.png');
+}
+/*SAFOOD*/
+.sf{
+  background: url('../Resource/resource_safood.png');
+}
+/*travel*/
+.tr{
+  background: url('../Resource/resource_travel.png');
+}
+/*srHOME*/
+.sr{
+  background: url('../Resource/resource_sr.png');
+}
+/*knock*/
+.kn{
+  background: url('../Resource/resource_knock.png');
+}
+/*BLOW IT*/
+.bt{
+  background: url('../Resource/resource_blowit.png');
+}
+/*BUS*/
+.bs{
+  background: url('../Resource/resource_bus.png');
+}
+/*바른말키패드*/
+.ba{
+  background: url('../Resource/resource_barn.png');
+}
+/*BYME*/
+.by{
+  background: url('../Resource/resource_204byme.png');
+}
+/*ACAR*/
+.ac{
+  background: url('../Resource/resource_acar.png');
+}
+/*chanre*/
+.ce{
+  background: url('../Resource/resource_chanre.png');
+}
+/*EDCAT*/
+.ec{
+  background: url('../Resource/resource_edcat.png');
+}
+/*rerant*/
+.re{
+  background: url('../Resource/resource_rerant.png');
+}
+/*shakit*/
+.sh{
+  background: url('../Resource/resource_shakit.png');
+}
+/*sharbat*/
+.sb{
+  background: url('../Resource/resource_sharbet.png');
+}
+/*미쿠랑 코딩*/
+.mi{
+  background: url('../Resource/resource_mikurang.png');
+}
+/*schoolcard*/
+.so{
+  background: url('../Resource/resource_schoolcard.png');
+}
+/*tenword*/
+.te{
+  background: url('../Resource/resource_tenword.png');
+}
+/*ustream*/
+.us{
+  background: url('../Resource/resource_ustream.png');
+}
+/*seoulu*/
+.is{
+  background: url('../Resource/resource_seoulu.png');
+}
+/*nacook*/
+.na{
+  background: url('../Resource/resource_nacook.png');
+}
+/*resource_material*/
+.me{
+  background: url('../Resource/resource_material.png');
+}
+/*미러*/
+.mr{
+  background: url('../Resource/resource_merror.png');
+}
+/*resource_kkobugi*/
+.kk{
+  background: url('../Resource/resource_kkobugi.png');
+}
