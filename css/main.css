@@ -287,11 +287,12 @@ header .menu .menu-right .menu-icon img{
 #p3{
   /*width:100%;*/
   /*display: flex;*/
-  flex-direction: column;
+  /*flex-direction: column;*/
+
   /*align-items: center;*/
-  /*float: left;*/
-  padding-left: 2rem;
-  padding-right: 2rem;
+  /*padding: 1rem;*/
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   padding-top: 1rem;
   /*margin-top: 70px;*/
 }
@@ -326,14 +327,18 @@ header .menu .menu-right .menu-icon img{
   border-right: none;
 }
 #p3 .project-box{
-  /*float: left;*/
+  /*display: flex;*/
+  float: left;
   display: flex;
-  width:100%;
-  height: 250px;
-  border: 1px solid black;
-  /*margin-right: 1%;
-  margin-left: 1%;*/
+  justify-content:space-between;;
+  max-width: 48%;
+  /*max-height: 300px;*/
+  height: 300px;
+  /*border: 1px solid black;*/
+  margin-right: 1%;
+  margin-left: 1%;
   margin-bottom: 5%;
+  box-sizing: border-box;
 }
 
 #p3 .project-box .right-index{
@@ -366,7 +371,7 @@ header .menu .menu-right .menu-icon img{
   background: none;
   border: 1px solid gray;
   outline: none;
-  padding: 0.75rem;
+  padding: 1.3rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-size: 10pt;
@@ -388,19 +393,21 @@ header .menu .menu-right .menu-icon img{
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
 }
 .slider {
-    width: 390px;
+    max-width: 420px;
+    /*max-width: 500px;*/
+
    overflow: hidden;
    transform: skewX(-20deg);
 }
 .sunset {
     transform: skewX(20deg);
     font-size: 30pt;
-    margin-left: 76px;
+    margin-left: 67px;
    background: url('../Resource/resource_204blowit.png');
    z-index: -1;
 
    background-repeat: no-repeat;
-   background-size: 50%;
+   background-size: 60%;
 }
 .slider {
 margin-left: -62px;
@@ -457,6 +464,15 @@ margin-left: -62px;
   #p1 .unit-bottom-line{
     margin-top: -4.9rem;
   }
+  #p3 .project-box{
+    max-width:100%;
+    height: 230px;
+  }
+  .sunset {
+    margin-left: 77px;
+    background-size: 50%;
+  }
+
 }
 @media (min-width : 970px) {
   #p1 .unit-logo{
