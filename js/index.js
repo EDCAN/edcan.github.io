@@ -60,11 +60,11 @@ $(function(){
   })
 
   $(".unit_button").click(function(){
-    location.href="unit"
+    alert("준비중입니다")
   });
 
   $(".more").click(function(){
-    location.href="portfolio"
+    alert("준비중입니다")
   })
 
   $("#left-angle").click(function(){
