@@ -17,6 +17,7 @@ $(function(){
 
 
   $(document).ready(function(){
+    console.log(location.href);
     if(location.href == "https://edcan.kr"){
       location.href="http://edcan.kr"
     }
