@@ -212,62 +212,120 @@ $(function(){
     }
   })
 
-  $(".rightBtn2").click(function(){
-    if(window.innerWidth < 600){
-      if(projectCount > 3){
+    $(".rightBtn2").click(function(){
+        if(window.innerWidth < 600){
+            if(projectCount > 3){
 
-      }
-      else{
-        projectMargin += window.innerWidth*-1;
-        projectCount++;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-    else if(window.innerWidth > 1200){
-      if(projectCount > 2){
+            }
+            else{
+                projectMargin += window.innerWidth*-1;
+                projectCount++;
+                $(".ts").animate({"margin-left":projectMargin},1000)
+            }
+        }
+        else if(window.innerWidth > 1200){
+            if(projectCount > 1){
 
-      }
-      else{
-        projectMargin += window.innerWidth/4*-1;
-        projectCount++;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-    else{
-      if(projectCount > 6){
+            }
+            else{
+                projectMargin += window.innerWidth/4*-1;
+                projectCount++;
+                $(".ts").animate({"margin-left":projectMargin},1000)
+            }
+        }
+        else{
+            if(projectCount > 4){
 
-      }
-      else{
-        projectMargin += window.innerWidth/4*-1;
-        projectCount++;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-  })
+            }
+            else{
+                projectMargin += window.innerWidth/4*-1;
+                projectCount++;
+                $(".ts").animate({"margin-left":projectMargin},1000)
+            }
+        }
 
-  $(".leftBtn2").click(function(){
-    if(window.innerWidth < 600){
+    })
 
-      if(projectCount == 0){
+    $(".leftBtn2").click(function(){
+        if(window.innerWidth < 600){
 
-      }
-      else{
-        projectMargin += window.innerWidth;
-        projectCount--;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-    else{
-      if(projectCount == 0){
+            if(projectCount == 0){
 
-      }
-      else{
-        projectMargin += window.innerWidth/4;
-        projectCount--;
-        $(".ts").animate({"margin-left":projectMargin},1000)
-      }
-    }
-  })
+            }
+            else{
+                projectMargin += window.innerWidth;
+                projectCount--;
+                $(".ts").animate({"margin-left":projectMargin},1000)
+            }
+        }
+        else{
+            if(projectCount == 0){
+
+            }
+            else{
+                projectMargin += window.innerWidth/4;
+                projectCount--;
+                $(".ts").animate({"margin-left":projectMargin},1000)
+            }
+        }
+    })
+
+  // $(".rightBtn2").click(function(){
+  //   if(window.innerWidth < 600){
+  //     if(projectCount > 3){
+  //
+  //     }
+  //     else{
+  //       projectMargin += window.innerWidth*-1;
+  //       projectCount++;
+  //       $(".ts").animate({"margin-left":projectMargin},1000)
+  //     }
+  //   }
+  //   else if(window.innerWidth > 1200){
+  //     if(projectCount > 2){
+  //
+  //     }
+  //     else{
+  //       projectMargin += window.innerWidth/4*-1;
+  //       projectCount++;
+  //       $(".ts").animate({"margin-left":projectMargin},1000)
+  //     }
+  //   }
+  //   else{
+  //     if(projectCount > 6){
+  //
+  //     }
+  //     else{
+  //       projectMargin += window.innerWidth/4*-1;
+  //       projectCount++;
+  //       $(".ts").animate({"margin-left":projectMargin},1000)
+  //     }
+  //   }
+  // })
+
+  // $(".leftBtn2").click(function(){
+  //   if(window.innerWidth < 600){
+  //
+  //     if(projectCount == 0){
+  //
+  //     }
+  //     else{
+  //       projectMargin += window.innerWidth;
+  //       projectCount--;
+  //       $(".ts").animate({"margin-left":projectMargin},1000)
+  //     }
+  //   }
+  //   else{
+  //     if(projectCount == 0){
+  //
+  //     }
+  //     else{
+  //       projectMargin += window.innerWidth/4;
+  //       projectCount--;
+  //       $(".ts").animate({"margin-left":projectMargin},1000)
+  //     }
+  //   }
+  // })
 
   $(".t_d").click(function(){
       var height = window.innerHeight;
