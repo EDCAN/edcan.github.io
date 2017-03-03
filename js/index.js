@@ -213,7 +213,7 @@ $(function(){
   })
 
   $(".rightBtn2").click(function(){
-    if(window.innerWidth < 1199){
+    if(window.innerWidth < 600){
       if(projectCount > 3){
 
       }
