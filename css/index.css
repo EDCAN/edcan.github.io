@@ -940,4 +940,9 @@ body{
         width:100vw;
         margin-right:0;
     }
+
+    #p5 .project .project-box .project-card{
+        width:100vw;
+
+    }
 }
