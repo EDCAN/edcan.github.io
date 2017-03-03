@@ -18,13 +18,10 @@ $(function(){
 
   $(document).ready(function(){
 
-    if(screen.width < 600){
 
-    }
-/*
     $.ajax({
       method:"GET",
-      url:"http://iwin247.net:3000/award",
+      url:"http://edcan.iwin247.kr/awards",
       success:function(data){
 
         twFive = data[0]['awards'];
@@ -34,7 +31,7 @@ $(function(){
         alert("Server Error");
       }
     })
-    */
+
   })
 
   $.preLoadImages = function() {
@@ -63,7 +60,11 @@ $(function(){
   })
 
   $(".unit_button").click(function(){
-    location.href="unit"
+    alert("준비중입니다")
+  });
+
+  $(".more").click(function(){
+    alert("준비중입니다")
   })
 
   $("#left-angle").click(function(){

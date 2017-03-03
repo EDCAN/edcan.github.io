@@ -1,9 +1,11 @@
+@import url(//cdn.jsdelivr.net/nanumsquare/1.0/nanumsquare.css);
+
 body{
   background-color: #eceff1;
 }
 
 *{
-  font-family: 'Nanum Square';
+    font-family: 'NanumSquare', sans-serif;
 }
 /* PART 1*/
 
@@ -12,10 +14,37 @@ body{
   background-color: white;
   margin-bottom: 3rem;
 }
-.page-name > h1{
+.page-name > .project-more >  h1{
   color:rgb(29, 189, 216);
   font-size: 30pt;
 }
+
+.page-name > h1{
+    color:rgb(29, 189, 216);
+    font-size: 30pt;
+}
+
+.project-more{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.more{
+    border:1px solid gray;
+    border-radius:40px;
+    color:gray;
+
+    padding:10px;
+    cursor:pointer;
+}
+
+.more:hover{
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+}
+
+
 .page-name > h3{
   color:gray;
   font-size: 12pt;
@@ -244,6 +273,8 @@ padding-bottom: 2.5rem;
     font-size: 20pt;
 }
 .leftBtn {
+
+    margin-top:80px;
     width: 50px;
     height: 100px;
     position: absolute;
@@ -264,6 +295,7 @@ padding-bottom: 2.5rem;
 }
 
 .rightBtn {
+    margin-top:80px;
     width: 50px;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -298,11 +330,6 @@ padding-bottom: 2.5rem;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
 
 }
 
@@ -417,6 +444,8 @@ padding-bottom: 2.5rem;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+
+    margin-top:100px;
 }
 .leftBtn2 {
     width: 50px;
@@ -437,16 +466,18 @@ padding-bottom: 2.5rem;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+
+    margin-top:100px;
 }
 
-@media (min-width : 970px){
+@media (min-width : 1000px){
     #p3  .link{
         display:flex;
         justify-content:space-around;
     }
 }
 
-@media (max-width : 500px){
+@media (max-width : 999px){
     .unit .unit_box {
         width:100vw;
         margin-right:0;
@@ -458,5 +489,9 @@ padding-bottom: 2.5rem;
 
     #p5 .project .project-box{
         margin-right:0;
+    }
+
+    .more{
+        width:100px;
     }
 }

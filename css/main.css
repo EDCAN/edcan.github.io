@@ -15,7 +15,10 @@ body{
   width:100%;
   height: 100%;
 }
-
+@font-face {
+    font-family:"Geometos";
+    src:url('font/Geometos.ttf');
+}
 *{
   font-family: 'Nanum Square';
 }
@@ -96,7 +99,7 @@ nav .kategorie .side-box-title{
   background-image: url('../img/main/background.png');
 }
 #p1 .unit-logo{
-  margin-top: 80px; // header menu height
+  margin-top: 80px;
   display: flex;
   align-items: flex-end;
   /*flex:5;*/
@@ -104,7 +107,11 @@ nav .kategorie .side-box-title{
 #p1 .title-text{
   display: flex;
   align-items: flex-start;;
+  font-family: 'NanumSquare', sans-serif;
   flex:3;
+}
+#asd{
+  font-family: 'Circle', sans-serif;
 }
 #p1 .bottom-button-group{
   flex:3;
@@ -285,6 +292,7 @@ header .menu .menu-right .menu-icon img{
 }
 
 #p3{
+<<<<<<< HEAD
   /*width:100%;*/
   /*display: flex;*/
   /*flex-direction: column;*/
@@ -294,6 +302,15 @@ header .menu .menu-right .menu-icon img{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   padding-top: 1rem;
+=======
+  width:calc(100% - 4rem);
+  /*width: 100%;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+
+
+>>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
   /*margin-top: 70px;*/
 }
 #p3 .title-text{
@@ -311,6 +328,7 @@ header .menu .menu-right .menu-icon img{
 }
 #p3 .title-sub .subText{
   color:gray;
+  display: block;
 }
 #p3 .title-sub .project-date{
   display: flex;
@@ -326,10 +344,15 @@ header .menu .menu-right .menu-icon img{
 #p3 .title-sub .project-date .project-date-2017{
   border-right: none;
 }
+#p3 .project-box-group{
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
 #p3 .project-box{
   /*display: flex;*/
   float: left;
   display: flex;
+<<<<<<< HEAD
   justify-content:space-between;;
   max-width: 48%;
   /*max-height: 300px;*/
@@ -337,6 +360,18 @@ header .menu .menu-right .menu-icon img{
   /*border: 1px solid black;*/
   margin-right: 1%;
   margin-left: 1%;
+=======
+  /*width:100%;*/
+  /*max-width: 45.5%;*/
+  min-width: 500px;
+  height: 250px;
+  border: 1px solid black;
+  /*float: left;*/
+  /*margin-right: 25px;*/
+  /*margin-left: 25px;*/
+  /*margin-right: 1%;
+  margin-left: 1%;*/
+>>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
   margin-bottom: 5%;
   box-sizing: border-box;
 }
@@ -360,6 +395,7 @@ header .menu .menu-right .menu-icon img{
   color:gray;
   padding: 1rem;
   padding-left: 3rem;
+  min-width: 100px;
 }
 #p3 .project-box .right-index .project-button{
   display: flex;
@@ -384,30 +420,44 @@ header .menu .menu-right .menu-icon img{
 .box {
   width: 880px;
   height: 330px;
+
   /*border-radius: .5em;*/
 }
 .sunrise {
     /*position: absolute;*/
+    /*min-width: 300px;*/
     text-align: right;
     font-size: 30pt;
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
 }
 .slider {
+<<<<<<< HEAD
     max-width: 420px;
     /*max-width: 500px;*/
 
+=======
+   width: 400px;
+>>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
    overflow: hidden;
    transform: skewX(-20deg);
 }
 .sunset {
     transform: skewX(20deg);
     font-size: 30pt;
+<<<<<<< HEAD
     margin-left: 67px;
    background: url('../Resource/resource_204blowit.png');
    z-index: -1;
 
    background-repeat: no-repeat;
    background-size: 60%;
+=======
+    margin-left: 76px;
+
+   z-index: -1;
+   /*background-repeat: no-repeat;*/
+   /*background-size: cover;*/
+>>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
 }
 .slider {
 margin-left: -62px;
@@ -465,12 +515,17 @@ margin-left: -62px;
     margin-top: -4.9rem;
   }
   #p3 .project-box{
+<<<<<<< HEAD
     max-width:100%;
     height: 230px;
   }
   .sunset {
     margin-left: 77px;
     background-size: 50%;
+=======
+    min-width: 350px;
+    max-width: 100%;
+>>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
   }
 
 }
@@ -487,5 +542,45 @@ margin-left: -62px;
   nav{
     display: none;
   }
+  #p3 .project-box{
+    /*min-width: 300px;*/
+    max-width: 45.5%;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  #p3 .project-box-group{
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+}
+@media (min-width : 768px) {
+  #p3 .project-box{
+
+
+  }
+
+  #p3 .project-box-group{
+    /*display: flex;*/
+    width:100%;
+    float: left;
+  }
+
+}
+@media (max-width : 768px) {
+  #p3 .project-box-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*width:100%;*/
+  }
+  #p3 .title-sub .subText{
+    display: none;
+  }
+  #p3 .title-sub{
+    justify-content: center;
+  }
+  #p3 .title-text{
+    text-align: center;
+  }
 }
