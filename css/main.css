@@ -292,17 +292,6 @@ header .menu .menu-right .menu-icon img{
 }
 
 #p3{
-<<<<<<< HEAD
-  /*width:100%;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-
-  /*align-items: center;*/
-  /*padding: 1rem;*/
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-  padding-top: 1rem;
-=======
   width:calc(100% - 4rem);
   /*width: 100%;*/
   margin-left: auto;
@@ -310,7 +299,6 @@ header .menu .menu-right .menu-icon img{
   margin-top: 1rem;
 
 
->>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
   /*margin-top: 70px;*/
 }
 #p3 .title-text{
@@ -349,18 +337,8 @@ header .menu .menu-right .menu-icon img{
   /*justify-content: center;*/
 }
 #p3 .project-box{
-  /*display: flex;*/
-  float: left;
+  /*float: left;*/
   display: flex;
-<<<<<<< HEAD
-  justify-content:space-between;;
-  max-width: 48%;
-  /*max-height: 300px;*/
-  height: 300px;
-  /*border: 1px solid black;*/
-  margin-right: 1%;
-  margin-left: 1%;
-=======
   /*width:100%;*/
   /*max-width: 45.5%;*/
   min-width: 500px;
@@ -371,13 +349,12 @@ header .menu .menu-right .menu-icon img{
   /*margin-left: 25px;*/
   /*margin-right: 1%;
   margin-left: 1%;*/
->>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
-  margin-bottom: 5%;
-  box-sizing: border-box;
+
 }
 
 #p3 .project-box .right-index{
   display: flex;
+  width:70%;
   flex-direction: column;
 }
 #p3 .project-box .right-index .project-title{
@@ -407,7 +384,7 @@ header .menu .menu-right .menu-icon img{
   background: none;
   border: 1px solid gray;
   outline: none;
-  padding: 1.3rem;
+  padding: 0.75rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-size: 10pt;
@@ -431,33 +408,18 @@ header .menu .menu-right .menu-icon img{
     box-shadow: 0 0 10px rgba(0, 0, 0, .7);
 }
 .slider {
-<<<<<<< HEAD
-    max-width: 420px;
-    /*max-width: 500px;*/
-
-=======
    width: 400px;
->>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
    overflow: hidden;
    transform: skewX(-20deg);
 }
 .sunset {
     transform: skewX(20deg);
     font-size: 30pt;
-<<<<<<< HEAD
-    margin-left: 67px;
-   background: url('../Resource/resource_204blowit.png');
-   z-index: -1;
-
-   background-repeat: no-repeat;
-   background-size: 60%;
-=======
     margin-left: 76px;
 
    z-index: -1;
    /*background-repeat: no-repeat;*/
    /*background-size: cover;*/
->>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
 }
 .slider {
 margin-left: -62px;
@@ -515,17 +477,9 @@ margin-left: -62px;
     margin-top: -4.9rem;
   }
   #p3 .project-box{
-<<<<<<< HEAD
-    max-width:100%;
-    height: 230px;
-  }
-  .sunset {
-    margin-left: 77px;
-    background-size: 50%;
-=======
     min-width: 350px;
     max-width: 100%;
->>>>>>> dcd24755286dae7f214b5c67b5404d27df7a90f0
+    margin-bottom: 1.5rem;
   }
 
 }
@@ -547,17 +501,19 @@ margin-left: -62px;
     max-width: 45.5%;
     margin-right: 25px;
     margin-left: 25px;
+    margin-bottom: 3rem;
   }
   #p3 .project-box-group{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
 }
 @media (min-width : 768px) {
   #p3 .project-box{
 
-
+    margin-bottom: 2rem;
   }
 
   #p3 .project-box-group{
@@ -571,7 +527,7 @@ margin-left: -62px;
   #p3 .project-box-group{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
     /*width:100%;*/
   }
   #p3 .title-sub .subText{
