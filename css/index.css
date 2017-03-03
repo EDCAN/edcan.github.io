@@ -273,6 +273,8 @@ padding-bottom: 2.5rem;
     font-size: 20pt;
 }
 .leftBtn {
+
+    margin-top:80px;
     width: 50px;
     height: 100px;
     position: absolute;
@@ -293,6 +295,7 @@ padding-bottom: 2.5rem;
 }
 
 .rightBtn {
+    margin-top:80px;
     width: 50px;
     height: 100px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -327,11 +330,6 @@ padding-bottom: 2.5rem;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
 
 }
 
@@ -446,6 +444,8 @@ padding-bottom: 2.5rem;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+
+    margin-top:100px;
 }
 .leftBtn2 {
     width: 50px;
@@ -466,6 +466,8 @@ padding-bottom: 2.5rem;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+
+    margin-top:100px;
 }
 
 @media (min-width : 1000px){
