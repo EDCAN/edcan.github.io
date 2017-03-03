@@ -17,7 +17,7 @@ $(function(){
 
 
   $(document).ready(function(){
-    else{
+
         $.ajax({
             method:"GET",
             url:"http://edcan.iwin247.kr/awards",
@@ -30,7 +30,7 @@ $(function(){
                 alert("Server Error");
             }
         })
-    }
+
 
   })
 
