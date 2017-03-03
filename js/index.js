@@ -17,20 +17,23 @@ $(function(){
 
 
   $(document).ready(function(){
+    if(location.href == "https://edcan.kr"){
+      location.href="http://edcan.kr"
+    }
+    else{
+        $.ajax({
+            method:"GET",
+            url:"http://edcan.iwin247.kr/awards",
+            success:function(data){
 
-
-    $.ajax({
-      method:"GET",
-      url:"http://edcan.iwin247.kr/awards",
-      success:function(data){
-
-        twFive = data[0]['awards'];
-        twSix = data[1]['awards'];
-      },
-      error:function(){
-        alert("Server Error");
-      }
-    })
+                twFive = data[0]['awards'];
+                twSix = data[1]['awards'];
+            },
+            error:function(){
+                alert("Server Error");
+            }
+        })
+    }
 
   })
 
