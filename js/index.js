@@ -218,7 +218,7 @@ $(function(){
 
       }
       else{
-        projectMargin += window.innerWidth/1*-1;
+        projectMargin += window.innerWidth*-1;
         projectCount++;
         $(".ts").animate({"margin-left":projectMargin},1000)
       }
@@ -252,7 +252,7 @@ $(function(){
 
       }
       else{
-        projectMargin += window.innerWidth/1;
+        projectMargin += window.innerWidth;
         projectCount--;
         $(".ts").animate({"margin-left":projectMargin},1000)
       }
