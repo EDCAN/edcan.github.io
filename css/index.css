@@ -483,6 +483,13 @@ padding-bottom: 2.5rem;
         margin-right:0;
     }
 
+
+    #p5 .project .project-box .project-card{
+        width:100vw;
+
+    }
+
+
     .unit > .unit_box > .unit_card {
         width:100vw;
     }
