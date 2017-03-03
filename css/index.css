@@ -937,6 +937,7 @@ body{
     }
 
     #p5 .project .project-box{
+        width:100vw;
         margin-right:0;
     }
 }
