@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="176" column="16" lean-forward="false" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
+            <state relative-caret-position="400">
+              <caret line="269" column="40" lean-forward="true" selection-start-line="269" selection-start-column="40" selection-end-line="269" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -60,26 +60,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/popup/popup.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/popup/popup.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,28 +73,39 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="944" column="20" lean-forward="false" selection-start-line="944" selection-start-column="20" selection-end-line="944" selection-end-column="20" />
+            <state relative-caret-position="208">
+              <caret line="922" column="0" lean-forward="false" selection-start-line="922" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/popup.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="111" column="13" lean-forward="false" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
-              <folding />
-            </state>
+      <file leaf-file-name="resource_alphaeuseoul.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/award/resource_alphaeuseoul.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/popup.html">
+      <file leaf-file-name="resource_204hangulo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/award/resource_204hangulo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource_sr.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/award/resource_sr.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -559,7 +550,7 @@
       <workItem from="1488464686307" duration="550000" />
       <workItem from="1488497198327" duration="1618000" />
       <workItem from="1488528228416" duration="376000" />
-      <workItem from="1488549943791" duration="2079000" />
+      <workItem from="1488549943791" duration="2382000" />
     </task>
     <task id="LOCAL-00001" summary="remove S7 media query  &amp; fix iphone media query">
       <created>1485957152825</created>
@@ -656,7 +647,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42670000" />
+    <option name="totallyTimeSpent" value="42973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -710,13 +701,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CNAME">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index_media.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -756,7 +740,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.html" />
     <entry file="file://$PROJECT_DIR$/img/main/background.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -883,17 +866,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/award/resource_alphaeuseoul.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/award/resource_barn.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/award/resource_204hangulo.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -986,14 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="176" column="16" lean-forward="false" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
@@ -1002,10 +967,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/award/resource_alphaeuseoul.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/award/resource_204hangulo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/award/resource_sr.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="269" column="40" lean-forward="true" selection-start-line="269" selection-start-column="40" selection-end-line="269" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="944" column="20" lean-forward="false" selection-start-line="944" selection-start-column="20" selection-end-line="944" selection-end-column="20" />
+        <state relative-caret-position="208">
+          <caret line="922" column="0" lean-forward="false" selection-start-line="922" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
           <folding />
         </state>
       </provider>

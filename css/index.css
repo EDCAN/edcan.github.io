@@ -919,6 +919,33 @@ body{
     justify-content: center;
 }
 
+
+.han{
+background-image:url("../img/award/resource_204hangulo.png");
+}
+
+.re{
+background-image:url("../img/award/resource_rerant.png");
+}
+
+.tras{
+background-image:url("../img/award/resource_travel.png");
+
+}
+
+.ba{
+background-image:url("../img/award/resource_barn.png");
+}
+
+.sr{
+background-image:url("../img/award/resource_sr.png");
+}
+
+.alpha{
+background-image:url("../img/award/resource_alphaeuseoul.png");
+}
+
+
 @media (min-width : 970px){
     #p3  .link{
         display:flex;
