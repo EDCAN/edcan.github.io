@@ -73,8 +73,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="525" column="14" lean-forward="false" selection-start-line="525" selection-start-column="14" selection-end-line="525" selection-end-column="14" />
+            <state relative-caret-position="462">
+              <caret line="937" column="19" lean-forward="false" selection-start-line="937" selection-start-column="19" selection-end-line="937" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -130,7 +130,6 @@
       <find>min-width:</find>
       <find>align-items</find>
       <find>vw</find>
-      <find>btn</find>
       <find>margin-top:13vh;</find>
       <find>sunrise</find>
       <find>ab</find>
@@ -154,6 +153,7 @@
       <find>more</find>
       <find>btn_box</find>
       <find>h1</find>
+      <find>btn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -550,7 +550,7 @@
       <workItem from="1488464686307" duration="550000" />
       <workItem from="1488497198327" duration="1618000" />
       <workItem from="1488528228416" duration="376000" />
-      <workItem from="1488549943791" duration="2605000" />
+      <workItem from="1488549943791" duration="2699000" />
     </task>
     <task id="LOCAL-00001" summary="remove S7 media query  &amp; fix iphone media query">
       <created>1485957152825</created>
@@ -647,7 +647,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43196000" />
+    <option name="totallyTimeSpent" value="43290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1000,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="525" column="14" lean-forward="false" selection-start-line="525" selection-start-column="14" selection-end-line="525" selection-end-column="14" />
+        <state relative-caret-position="462">
+          <caret line="937" column="19" lean-forward="false" selection-start-line="937" selection-start-column="19" selection-end-line="937" selection-end-column="19" />
           <folding />
         </state>
       </provider>
