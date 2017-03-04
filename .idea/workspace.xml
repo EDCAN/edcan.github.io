@@ -23,7 +23,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="3100">
               <caret line="269" column="40" lean-forward="true" selection-start-line="269" selection-start-column="40" selection-end-line="269" selection-end-column="40" />
               <folding />
             </state>
@@ -73,8 +73,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="922" column="0" lean-forward="false" selection-start-line="922" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="525" column="14" lean-forward="false" selection-start-line="525" selection-start-column="14" selection-end-line="525" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -144,7 +144,6 @@
       <find>arro</find>
       <find>background</find>
       <find>project</find>
-      <find>h1</find>
       <find>&lt;a</find>
       <find>ajaxx</find>
       <find>font</find>
@@ -154,6 +153,7 @@
       <find>margin-top</find>
       <find>more</find>
       <find>btn_box</find>
+      <find>h1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -550,7 +550,7 @@
       <workItem from="1488464686307" duration="550000" />
       <workItem from="1488497198327" duration="1618000" />
       <workItem from="1488528228416" duration="376000" />
-      <workItem from="1488549943791" duration="2382000" />
+      <workItem from="1488549943791" duration="2605000" />
     </task>
     <task id="LOCAL-00001" summary="remove S7 media query  &amp; fix iphone media query">
       <created>1485957152825</created>
@@ -647,7 +647,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42973000" />
+    <option name="totallyTimeSpent" value="43196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -992,7 +992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="3100">
           <caret line="269" column="40" lean-forward="true" selection-start-line="269" selection-start-column="40" selection-end-line="269" selection-end-column="40" />
           <folding />
         </state>
@@ -1000,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="922" column="0" lean-forward="false" selection-start-line="922" selection-start-column="0" selection-end-line="946" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="525" column="14" lean-forward="false" selection-start-line="525" selection-start-column="14" selection-end-line="525" selection-end-column="14" />
           <folding />
         </state>
       </provider>

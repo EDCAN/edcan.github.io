@@ -522,6 +522,17 @@ body{
     color:rgb(29, 189, 216);
     font-size: 30pt;
 }
+
+.page-name > .project-more > h1{
+    color:rgb(29, 189, 216);
+    font-size: 30pt;
+}
+
+.page-name > .project-more > h3{
+    color:gray;
+    font-size: 12pt;
+}
+
 .page-name > h3{
     color:gray;
     font-size: 12pt;
