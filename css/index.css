@@ -862,7 +862,6 @@ body{
     overflow:hidden;
 }
 #p5 .project .project-box .project-card{
-    background-image: url('../img/temp/temp.png');
     width:400px;
     height:320px;
     background-size: cover;
