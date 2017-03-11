@@ -17,19 +17,19 @@ $(function(){
 
 
   $(document).ready(function(){
-
-        $.ajax({
-            method:"GET",
-            url:"http://edcan.iwin247.kr/awards",
-            success:function(data){
-
-                twFive = data[0]['awards'];
-                twSix = data[1]['awards'];
-            },
-            error:function(){
-                alert("Server Error");
-            }
-        })
+        location.href="http://edcan.iwin247.kr"
+        // $.ajax({
+        //     method:"GET",
+        //     url:"http://edcan.iwin247.kr/awards",
+        //     success:function(data){
+        //
+        //         twFive = data[0]['awards'];
+        //         twSix = data[1]['awards'];
+        //     },
+        //     error:function(){
+        //         alert("Server Error");
+        //     }
+        // })
 
 
   })
