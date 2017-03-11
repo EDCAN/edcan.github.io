@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="459" column="0" lean-forward="false" selection-start-line="459" selection-start-column="0" selection-end-line="466" selection-end-column="15" />
+            <state relative-caret-position="550">
+              <caret line="458" column="41" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="458" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -562,7 +562,7 @@
       <workItem from="1488528228416" duration="376000" />
       <workItem from="1488549943791" duration="2756000" />
       <workItem from="1488723383137" duration="1699000" />
-      <workItem from="1489236917807" duration="704000" />
+      <workItem from="1489236917807" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary="remove S7 media query  &amp; fix iphone media query">
       <created>1485957152825</created>
@@ -659,7 +659,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45750000" />
+    <option name="totallyTimeSpent" value="45907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1034,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="459" column="0" lean-forward="false" selection-start-line="459" selection-start-column="0" selection-end-line="466" selection-end-column="15" />
+        <state relative-caret-position="550">
+          <caret line="458" column="41" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="458" selection-end-column="41" />
           <folding />
         </state>
       </provider>
